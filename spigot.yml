@@ -160,3 +160,5 @@ world-settings:
       entity: 50
     squid-spawn-range:
       min: 45.0
+players:
+  disable-saving: false

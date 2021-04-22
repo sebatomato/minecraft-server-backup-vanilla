@@ -413,6 +413,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/very_very_frightening": {
+    "criteria": {
+      "struck_villager": "2020-11-04 21:06:37 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_smelting": {
     "criteria": {
       "has_kelp": "2019-08-07 21:37:35 +0800"
@@ -5167,6 +5173,7 @@
       "textures/entity/cat/tabby.png": "2020-03-09 20:46:30 +0800",
       "textures/entity/cat/black.png": "2019-12-08 15:21:57 +0800",
       "textures/entity/cat/siamese.png": "2019-09-24 17:55:58 +0800",
+      "textures/entity/cat/ragdoll.png": "2020-10-25 20:43:52 +0800",
       "textures/entity/cat/british_shorthair.png": "2019-08-18 15:33:26 +0800",
       "textures/entity/cat/all_black.png": "2020-05-16 00:07:56 +0800",
       "textures/entity/cat/persian.png": "2019-12-08 15:22:52 +0800",
@@ -5253,5 +5260,5 @@
     },
     "done": true
   },
-  "DataVersion": 2578
+  "DataVersion": 2584
 }
