@@ -1,2 +1,2 @@
-"# minecraft-server" 
-"# minecraft-server-vanilla-backup" 
+# minecraft-server
+# minecraft-server-vanilla-backup
