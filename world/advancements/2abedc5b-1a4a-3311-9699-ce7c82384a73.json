@@ -389,6 +389,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2021-05-01 17:02:28 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_white_dye": "2021-01-25 13:47:56 +0800"
@@ -807,6 +813,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2021-05-01 17:18:23 +0800"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2021-01-16 15:14:10 +0800"
@@ -828,6 +840,12 @@
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2021-01-23 21:47:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2021-05-01 17:17:56 +0800"
     },
     "done": true
   },
@@ -1239,6 +1257,7 @@
       "minecraft:desert": "2021-01-16 11:35:29 +0800",
       "minecraft:frozen_river": "2021-03-19 23:51:58 +0800",
       "minecraft:warm_ocean": "2021-01-24 22:53:50 +0800",
+      "minecraft:deep_lukewarm_ocean": "2021-05-01 16:34:07 +0800",
       "minecraft:beach": "2021-01-16 11:29:08 +0800",
       "minecraft:river": "2021-01-16 15:32:00 +0800",
       "minecraft:lukewarm_ocean": "2021-01-24 22:54:11 +0800",
@@ -1337,6 +1356,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_slab": {
     "criteria": {
       "has_polished_blackstone": "2021-03-14 18:55:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_blue_dye": "2021-05-01 17:17:56 +0800"
     },
     "done": true
   },
@@ -1694,6 +1719,12 @@
   "minecraft:recipes/decorations/pink_carpet": {
     "criteria": {
       "has_pink_wool": "2021-03-12 21:52:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_blue_dye": "2021-05-01 17:17:56 +0800"
     },
     "done": true
   },
@@ -2828,6 +2859,12 @@
   "minecraft:recipes/misc/iron_ingot": {
     "criteria": {
       "has_iron_ore": "2021-01-16 15:55:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_blue_dye": "2021-05-01 17:17:56 +0800"
     },
     "done": true
   },
