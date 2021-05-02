@@ -10,4 +10,7 @@
 
 ## JS Village
 
+- Villager breeder
+- Large production carrot and potato farm
+
 ![image](https://user-images.githubusercontent.com/11171910/116815937-829f8780-ab92-11eb-9a65-fca5e93e5934.png)
