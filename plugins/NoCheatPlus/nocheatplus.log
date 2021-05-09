@@ -1079,3 +1079,316 @@ Hooks: AllViolations~NCP~ 1.0 | ViolationFrequency~NCP~ 1.0
 21-05-02 00:24:34 [INFO] Removed hook: AllViolations(NCP) [1.0].
 21-05-02 00:24:34 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 3694 (3694/0) |
 21-05-02 00:24:34 [INFO] [GenericInstanceRegistry] Registry cleared.
+21-05-02 08:57:12 [INFO] Logger started.
+21-05-02 08:57:12 [INFO] Logging system initialized.
+21-05-02 08:57:12 [INFO] Detected Minecraft version: 1.16.5
+21-05-02 08:57:15 [INFO] McAccess set to: 1.13-1.16|? / Bukkit-API
+21-05-02 08:57:15 [INFO] Added block-info for Minecraft 1.5 blocks.
+21-05-02 08:57:15 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+21-05-02 08:57:15 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+21-05-02 08:57:15 [INFO] Added block-info for Minecraft 1.8 blocks.
+21-05-02 08:57:15 [INFO] Added block-info for Minecraft 1.9 blocks.
+21-05-02 08:57:15 [INFO] Added block-info for Minecraft 1.10 blocks.
+21-05-02 08:57:15 [INFO] Added block-info for Minecraft 1.11 blocks.
+21-05-02 08:57:15 [INFO] Added block-info for Minecraft 1.12 blocks.
+21-05-02 08:57:15 [INFO] Added block-info for Minecraft 1.13 blocks.
+21-05-02 08:57:15 [INFO] Added block-info for Minecraft 1.14 blocks.
+21-05-02 08:57:15 [INFO] Added block-info for Minecraft 1.15 blocks.
+21-05-02 08:57:15 [INFO] Added block-info for Minecraft 1.16 blocks.
+21-05-02 08:57:15 [FINE] The following blocks can not be modeled correctly: WEEPING_VINES, TWISTING_VINES, DEAD_BRAIN_CORAL, DEAD_BUBBLE_CORAL, DEAD_FIRE_CORAL, DEAD_HORN_CORAL, DEAD_TUBE_CORAL, DEAD_TUBE_CORAL_FAN, DEAD_BRAIN_CORAL_FAN, DEAD_BUBBLE_CORAL_FAN, DEAD_FIRE_CORAL_FAN, DEAD_HORN_CORAL_FAN, SCAFFOLDING, COMPOSTER, GRINDSTONE, STONECUTTER, CAMPFIRE, SOUL_CAMPFIRE, DEAD_TUBE_CORAL_WALL_FAN, DEAD_BRAIN_CORAL_WALL_FAN, DEAD_BUBBLE_CORAL_WALL_FAN, DEAD_FIRE_CORAL_WALL_FAN, DEAD_HORN_CORAL_WALL_FAN, WEEPING_VINES_PLANT, TWISTING_VINES_PLANT
+21-05-02 08:57:15 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+21-05-02 08:57:15 [INFO] Packet level access: ProtocolLib is not available.
+21-05-02 08:57:15 [INFO] Force disable FastHeal, FastConsume, PacketFrequency and InstantBow on Minecraft 1.9 and later.
+21-05-02 08:57:15 [INFO] Version 3.17-SNAPSHOT-Updated-b93 is enabled.
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered (override) for itself: fr.neatmonster.nocheatplus.hooks.ExemptionSettings
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkitModern
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkitModern
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbreflect.reflect.ReflectEntityLastPositionAndLook
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+21-05-02 08:57:20 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+21-05-02 08:57:20 [INFO] Added hook: AllViolations(NCP) [1.0].
+21-05-02 08:57:20 [INFO] Added hook: ViolationFrequency(NCP) [1.0].
+21-05-02 08:57:20 [INFO] Post-enable running...
+21-05-02 08:57:20 [INFO] Post-enable finished.
+21-05-02 08:57:20 [INFO] ---- Version information ----
+#### Server ####
+3056-Spigot-4225eac-6f55b5b ~MC: 1.16.5~
+  detected: 1.16.5
+#### NoCheatPlus ####
+Plugin: 3.17-SNAPSHOT-Updated-b93
+MCAccess: 1.13-1.16|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12 | BlocksMC1_13 | BlocksMC1_14 | BlocksMC1_15 | BlocksMC1_16 | MCAccessBukkitModern
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0 | ViolationFrequency~NCP~ 1.0
+21-05-02 12:31:35 [WARNING] [MOVING] [hou]  TP UNKNOWN (set back was overridden): Location{world=CraftWorld{name=world},x=3629.1647107762524,y=65.45999998807908,z=-184.00212529378678,pitch=62.100086,yaw=133.21295}
+21-05-02 18:38:35 [INFO] Logger started.
+21-05-02 18:38:35 [INFO] Logging system initialized.
+21-05-02 18:38:35 [INFO] Detected Minecraft version: 1.16.5
+21-05-02 18:38:39 [INFO] McAccess set to: 1.13-1.16|? / Bukkit-API
+21-05-02 18:38:39 [INFO] Added block-info for Minecraft 1.5 blocks.
+21-05-02 18:38:39 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+21-05-02 18:38:39 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+21-05-02 18:38:39 [INFO] Added block-info for Minecraft 1.8 blocks.
+21-05-02 18:38:39 [INFO] Added block-info for Minecraft 1.9 blocks.
+21-05-02 18:38:39 [INFO] Added block-info for Minecraft 1.10 blocks.
+21-05-02 18:38:39 [INFO] Added block-info for Minecraft 1.11 blocks.
+21-05-02 18:38:39 [INFO] Added block-info for Minecraft 1.12 blocks.
+21-05-02 18:38:39 [INFO] Added block-info for Minecraft 1.13 blocks.
+21-05-02 18:38:39 [INFO] Added block-info for Minecraft 1.14 blocks.
+21-05-02 18:38:39 [INFO] Added block-info for Minecraft 1.15 blocks.
+21-05-02 18:38:39 [INFO] Added block-info for Minecraft 1.16 blocks.
+21-05-02 18:38:39 [FINE] The following blocks can not be modeled correctly: WEEPING_VINES, TWISTING_VINES, DEAD_BRAIN_CORAL, DEAD_BUBBLE_CORAL, DEAD_FIRE_CORAL, DEAD_HORN_CORAL, DEAD_TUBE_CORAL, DEAD_TUBE_CORAL_FAN, DEAD_BRAIN_CORAL_FAN, DEAD_BUBBLE_CORAL_FAN, DEAD_FIRE_CORAL_FAN, DEAD_HORN_CORAL_FAN, SCAFFOLDING, COMPOSTER, GRINDSTONE, STONECUTTER, CAMPFIRE, SOUL_CAMPFIRE, DEAD_TUBE_CORAL_WALL_FAN, DEAD_BRAIN_CORAL_WALL_FAN, DEAD_BUBBLE_CORAL_WALL_FAN, DEAD_FIRE_CORAL_WALL_FAN, DEAD_HORN_CORAL_WALL_FAN, WEEPING_VINES_PLANT, TWISTING_VINES_PLANT
+21-05-02 18:38:39 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+21-05-02 18:38:39 [INFO] Packet level access: ProtocolLib is not available.
+21-05-02 18:38:39 [INFO] Force disable FastHeal, FastConsume, PacketFrequency and InstantBow on Minecraft 1.9 and later.
+21-05-02 18:38:39 [INFO] Version 3.17-SNAPSHOT-Updated-b93 is enabled.
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered (override) for itself: fr.neatmonster.nocheatplus.hooks.ExemptionSettings
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkitModern
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkitModern
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbreflect.reflect.ReflectEntityLastPositionAndLook
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+21-05-02 18:38:43 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+21-05-02 18:38:43 [INFO] Added hook: AllViolations(NCP) [1.0].
+21-05-02 18:38:43 [INFO] Added hook: ViolationFrequency(NCP) [1.0].
+21-05-02 18:38:43 [INFO] Post-enable running...
+21-05-02 18:38:43 [INFO] Post-enable finished.
+21-05-02 18:38:43 [INFO] ---- Version information ----
+#### Server ####
+3056-Spigot-4225eac-6f55b5b ~MC: 1.16.5~
+  detected: 1.16.5
+#### NoCheatPlus ####
+Plugin: 3.17-SNAPSHOT-Updated-b93
+MCAccess: 1.13-1.16|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12 | BlocksMC1_13 | BlocksMC1_14 | BlocksMC1_15 | BlocksMC1_16 | MCAccessBukkitModern
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0 | ViolationFrequency~NCP~ 1.0
+21-05-02 18:39:31 [INFO] Removed hook: ViolationFrequency(NCP) [1.0].
+21-05-02 18:39:31 [INFO] Removed hook: AllViolations(NCP) [1.0].
+21-05-02 18:39:31 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 0 |
+21-05-02 18:39:31 [INFO] [GenericInstanceRegistry] Registry cleared.
+21-05-02 18:48:37 [INFO] Logger started.
+21-05-02 18:48:37 [INFO] Logging system initialized.
+21-05-02 18:48:37 [INFO] Detected Minecraft version: 1.16.5
+21-05-02 18:48:43 [INFO] McAccess set to: 1.13-1.16|? / Bukkit-API
+21-05-02 18:48:44 [INFO] Added block-info for Minecraft 1.5 blocks.
+21-05-02 18:48:44 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+21-05-02 18:48:44 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+21-05-02 18:48:44 [INFO] Added block-info for Minecraft 1.8 blocks.
+21-05-02 18:48:44 [INFO] Added block-info for Minecraft 1.9 blocks.
+21-05-02 18:48:44 [INFO] Added block-info for Minecraft 1.10 blocks.
+21-05-02 18:48:44 [INFO] Added block-info for Minecraft 1.11 blocks.
+21-05-02 18:48:44 [INFO] Added block-info for Minecraft 1.12 blocks.
+21-05-02 18:48:44 [INFO] Added block-info for Minecraft 1.13 blocks.
+21-05-02 18:48:44 [INFO] Added block-info for Minecraft 1.14 blocks.
+21-05-02 18:48:44 [INFO] Added block-info for Minecraft 1.15 blocks.
+21-05-02 18:48:44 [INFO] Added block-info for Minecraft 1.16 blocks.
+21-05-02 18:48:44 [FINE] The following blocks can not be modeled correctly: WEEPING_VINES, TWISTING_VINES, DEAD_BRAIN_CORAL, DEAD_BUBBLE_CORAL, DEAD_FIRE_CORAL, DEAD_HORN_CORAL, DEAD_TUBE_CORAL, DEAD_TUBE_CORAL_FAN, DEAD_BRAIN_CORAL_FAN, DEAD_BUBBLE_CORAL_FAN, DEAD_FIRE_CORAL_FAN, DEAD_HORN_CORAL_FAN, SCAFFOLDING, COMPOSTER, GRINDSTONE, STONECUTTER, CAMPFIRE, SOUL_CAMPFIRE, DEAD_TUBE_CORAL_WALL_FAN, DEAD_BRAIN_CORAL_WALL_FAN, DEAD_BUBBLE_CORAL_WALL_FAN, DEAD_FIRE_CORAL_WALL_FAN, DEAD_HORN_CORAL_WALL_FAN, WEEPING_VINES_PLANT, TWISTING_VINES_PLANT
+21-05-02 18:48:44 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+21-05-02 18:48:44 [INFO] Packet level access: ProtocolLib is not available.
+21-05-02 18:48:44 [INFO] Force disable FastHeal, FastConsume, PacketFrequency and InstantBow on Minecraft 1.9 and later.
+21-05-02 18:48:44 [INFO] Version 3.17-SNAPSHOT-Updated-b93 is enabled.
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered (override) for itself: fr.neatmonster.nocheatplus.hooks.ExemptionSettings
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkitModern
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkitModern
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbreflect.reflect.ReflectEntityLastPositionAndLook
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+21-05-02 18:48:51 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+21-05-02 18:48:51 [INFO] Added hook: AllViolations(NCP) [1.0].
+21-05-02 18:48:51 [INFO] Added hook: ViolationFrequency(NCP) [1.0].
+21-05-02 18:48:51 [INFO] Post-enable running...
+21-05-02 18:48:51 [INFO] Post-enable finished.
+21-05-02 18:48:51 [INFO] ---- Version information ----
+#### Server ####
+3056-Spigot-4225eac-6f55b5b ~MC: 1.16.5~
+  detected: 1.16.5
+#### NoCheatPlus ####
+Plugin: 3.17-SNAPSHOT-Updated-b93
+MCAccess: 1.13-1.16|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12 | BlocksMC1_13 | BlocksMC1_14 | BlocksMC1_15 | BlocksMC1_16 | MCAccessBukkitModern
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0 | ViolationFrequency~NCP~ 1.0
+21-05-02 19:07:15 [INFO] Removed hook: ViolationFrequency(NCP) [1.0].
+21-05-02 19:07:15 [INFO] Removed hook: AllViolations(NCP) [1.0].
+21-05-02 19:07:15 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 6547 (6547/0) |
+21-05-02 19:07:15 [INFO] [GenericInstanceRegistry] Registry cleared.
+21-05-02 19:11:46 [INFO] Logger started.
+21-05-02 19:11:46 [INFO] Logging system initialized.
+21-05-02 19:11:46 [INFO] Detected Minecraft version: 1.16.5
+21-05-02 19:11:49 [INFO] McAccess set to: 1.13-1.16|? / Bukkit-API
+21-05-02 19:11:49 [INFO] Added block-info for Minecraft 1.5 blocks.
+21-05-02 19:11:49 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+21-05-02 19:11:49 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+21-05-02 19:11:49 [INFO] Added block-info for Minecraft 1.8 blocks.
+21-05-02 19:11:49 [INFO] Added block-info for Minecraft 1.9 blocks.
+21-05-02 19:11:49 [INFO] Added block-info for Minecraft 1.10 blocks.
+21-05-02 19:11:49 [INFO] Added block-info for Minecraft 1.11 blocks.
+21-05-02 19:11:49 [INFO] Added block-info for Minecraft 1.12 blocks.
+21-05-02 19:11:49 [INFO] Added block-info for Minecraft 1.13 blocks.
+21-05-02 19:11:49 [INFO] Added block-info for Minecraft 1.14 blocks.
+21-05-02 19:11:49 [INFO] Added block-info for Minecraft 1.15 blocks.
+21-05-02 19:11:49 [INFO] Added block-info for Minecraft 1.16 blocks.
+21-05-02 19:11:49 [FINE] The following blocks can not be modeled correctly: WEEPING_VINES, TWISTING_VINES, DEAD_BRAIN_CORAL, DEAD_BUBBLE_CORAL, DEAD_FIRE_CORAL, DEAD_HORN_CORAL, DEAD_TUBE_CORAL, DEAD_TUBE_CORAL_FAN, DEAD_BRAIN_CORAL_FAN, DEAD_BUBBLE_CORAL_FAN, DEAD_FIRE_CORAL_FAN, DEAD_HORN_CORAL_FAN, SCAFFOLDING, COMPOSTER, GRINDSTONE, STONECUTTER, CAMPFIRE, SOUL_CAMPFIRE, DEAD_TUBE_CORAL_WALL_FAN, DEAD_BRAIN_CORAL_WALL_FAN, DEAD_BUBBLE_CORAL_WALL_FAN, DEAD_FIRE_CORAL_WALL_FAN, DEAD_HORN_CORAL_WALL_FAN, WEEPING_VINES_PLANT, TWISTING_VINES_PLANT
+21-05-02 19:11:49 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+21-05-02 19:11:49 [INFO] Packet level access: ProtocolLib is not available.
+21-05-02 19:11:49 [INFO] Force disable FastHeal, FastConsume, PacketFrequency and InstantBow on Minecraft 1.9 and later.
+21-05-02 19:11:49 [INFO] Version 3.17-SNAPSHOT-Updated-b93 is enabled.
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered (override) for itself: fr.neatmonster.nocheatplus.hooks.ExemptionSettings
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkitModern
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkitModern
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbreflect.reflect.ReflectEntityLastPositionAndLook
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+21-05-02 19:11:54 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+21-05-02 19:11:54 [INFO] Added hook: AllViolations(NCP) [1.0].
+21-05-02 19:11:54 [INFO] Added hook: ViolationFrequency(NCP) [1.0].
+21-05-02 19:11:54 [INFO] Post-enable running...
+21-05-02 19:11:54 [INFO] Post-enable finished.
+21-05-02 19:11:54 [INFO] ---- Version information ----
+#### Server ####
+3056-Spigot-4225eac-6f55b5b ~MC: 1.16.5~
+  detected: 1.16.5
+#### NoCheatPlus ####
+Plugin: 3.17-SNAPSHOT-Updated-b93
+MCAccess: 1.13-1.16|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12 | BlocksMC1_13 | BlocksMC1_14 | BlocksMC1_15 | BlocksMC1_16 | MCAccessBukkitModern
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0 | ViolationFrequency~NCP~ 1.0
+21-05-04 20:02:02 [INFO] Logger started.
+21-05-04 20:02:02 [INFO] Logging system initialized.
+21-05-04 20:02:02 [INFO] Detected Minecraft version: 1.16.5
+21-05-04 20:02:08 [INFO] McAccess set to: 1.13-1.16|? / Bukkit-API
+21-05-04 20:02:08 [INFO] Added block-info for Minecraft 1.5 blocks.
+21-05-04 20:02:08 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+21-05-04 20:02:08 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+21-05-04 20:02:08 [INFO] Added block-info for Minecraft 1.8 blocks.
+21-05-04 20:02:08 [INFO] Added block-info for Minecraft 1.9 blocks.
+21-05-04 20:02:08 [INFO] Added block-info for Minecraft 1.10 blocks.
+21-05-04 20:02:08 [INFO] Added block-info for Minecraft 1.11 blocks.
+21-05-04 20:02:08 [INFO] Added block-info for Minecraft 1.12 blocks.
+21-05-04 20:02:08 [INFO] Added block-info for Minecraft 1.13 blocks.
+21-05-04 20:02:08 [INFO] Added block-info for Minecraft 1.14 blocks.
+21-05-04 20:02:08 [INFO] Added block-info for Minecraft 1.15 blocks.
+21-05-04 20:02:08 [INFO] Added block-info for Minecraft 1.16 blocks.
+21-05-04 20:02:08 [FINE] The following blocks can not be modeled correctly: WEEPING_VINES, TWISTING_VINES, DEAD_BRAIN_CORAL, DEAD_BUBBLE_CORAL, DEAD_FIRE_CORAL, DEAD_HORN_CORAL, DEAD_TUBE_CORAL, DEAD_TUBE_CORAL_FAN, DEAD_BRAIN_CORAL_FAN, DEAD_BUBBLE_CORAL_FAN, DEAD_FIRE_CORAL_FAN, DEAD_HORN_CORAL_FAN, SCAFFOLDING, COMPOSTER, GRINDSTONE, STONECUTTER, CAMPFIRE, SOUL_CAMPFIRE, DEAD_TUBE_CORAL_WALL_FAN, DEAD_BRAIN_CORAL_WALL_FAN, DEAD_BUBBLE_CORAL_WALL_FAN, DEAD_FIRE_CORAL_WALL_FAN, DEAD_HORN_CORAL_WALL_FAN, WEEPING_VINES_PLANT, TWISTING_VINES_PLANT
+21-05-04 20:02:08 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+21-05-04 20:02:08 [INFO] Packet level access: ProtocolLib is not available.
+21-05-04 20:02:08 [INFO] Force disable FastHeal, FastConsume, PacketFrequency and InstantBow on Minecraft 1.9 and later.
+21-05-04 20:02:08 [INFO] Version 3.17-SNAPSHOT-Updated-b93 is enabled.
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered (override) for itself: fr.neatmonster.nocheatplus.hooks.ExemptionSettings
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkitModern
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkitModern
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbreflect.reflect.ReflectEntityLastPositionAndLook
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+21-05-04 20:02:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+21-05-04 20:02:13 [INFO] Added hook: AllViolations(NCP) [1.0].
+21-05-04 20:02:13 [INFO] Added hook: ViolationFrequency(NCP) [1.0].
+21-05-04 20:02:13 [INFO] Post-enable running...
+21-05-04 20:02:13 [INFO] Post-enable finished.
+21-05-04 20:02:13 [INFO] ---- Version information ----
+#### Server ####
+3056-Spigot-4225eac-6f55b5b ~MC: 1.16.5~
+  detected: 1.16.5
+#### NoCheatPlus ####
+Plugin: 3.17-SNAPSHOT-Updated-b93
+MCAccess: 1.13-1.16|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12 | BlocksMC1_13 | BlocksMC1_14 | BlocksMC1_15 | BlocksMC1_16 | MCAccessBukkitModern
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0 | ViolationFrequency~NCP~ 1.0
+21-05-04 20:28:23 [INFO] Removed hook: ViolationFrequency(NCP) [1.0].
+21-05-04 20:28:23 [INFO] Removed hook: AllViolations(NCP) [1.0].
+21-05-04 20:28:23 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 5253 (5253/0) |
+21-05-04 20:28:23 [INFO] [GenericInstanceRegistry] Registry cleared.
+21-05-09 10:02:20 [INFO] Logger started.
+21-05-09 10:02:20 [INFO] Logging system initialized.
+21-05-09 10:02:20 [INFO] Detected Minecraft version: 1.16.5
+21-05-09 10:02:24 [INFO] McAccess set to: 1.13-1.16|? / Bukkit-API
+21-05-09 10:02:24 [INFO] Added block-info for Minecraft 1.5 blocks.
+21-05-09 10:02:24 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+21-05-09 10:02:24 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+21-05-09 10:02:24 [INFO] Added block-info for Minecraft 1.8 blocks.
+21-05-09 10:02:24 [INFO] Added block-info for Minecraft 1.9 blocks.
+21-05-09 10:02:24 [INFO] Added block-info for Minecraft 1.10 blocks.
+21-05-09 10:02:24 [INFO] Added block-info for Minecraft 1.11 blocks.
+21-05-09 10:02:24 [INFO] Added block-info for Minecraft 1.12 blocks.
+21-05-09 10:02:24 [INFO] Added block-info for Minecraft 1.13 blocks.
+21-05-09 10:02:24 [INFO] Added block-info for Minecraft 1.14 blocks.
+21-05-09 10:02:24 [INFO] Added block-info for Minecraft 1.15 blocks.
+21-05-09 10:02:24 [INFO] Added block-info for Minecraft 1.16 blocks.
+21-05-09 10:02:24 [FINE] The following blocks can not be modeled correctly: WEEPING_VINES, TWISTING_VINES, DEAD_BRAIN_CORAL, DEAD_BUBBLE_CORAL, DEAD_FIRE_CORAL, DEAD_HORN_CORAL, DEAD_TUBE_CORAL, DEAD_TUBE_CORAL_FAN, DEAD_BRAIN_CORAL_FAN, DEAD_BUBBLE_CORAL_FAN, DEAD_FIRE_CORAL_FAN, DEAD_HORN_CORAL_FAN, SCAFFOLDING, COMPOSTER, GRINDSTONE, STONECUTTER, CAMPFIRE, SOUL_CAMPFIRE, DEAD_TUBE_CORAL_WALL_FAN, DEAD_BRAIN_CORAL_WALL_FAN, DEAD_BUBBLE_CORAL_WALL_FAN, DEAD_FIRE_CORAL_WALL_FAN, DEAD_HORN_CORAL_WALL_FAN, WEEPING_VINES_PLANT, TWISTING_VINES_PLANT
+21-05-09 10:02:24 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+21-05-09 10:02:24 [INFO] Packet level access: ProtocolLib is not available.
+21-05-09 10:02:24 [INFO] Force disable FastHeal, FastConsume, PacketFrequency and InstantBow on Minecraft 1.9 and later.
+21-05-09 10:02:24 [INFO] Version 3.17-SNAPSHOT-Updated-b93 is enabled.
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered (override) for itself: fr.neatmonster.nocheatplus.hooks.ExemptionSettings
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkitModern
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkitModern
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbreflect.reflect.ReflectEntityLastPositionAndLook
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+21-05-09 10:02:30 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+21-05-09 10:02:30 [INFO] Added hook: AllViolations(NCP) [1.0].
+21-05-09 10:02:30 [INFO] Added hook: ViolationFrequency(NCP) [1.0].
+21-05-09 10:02:30 [INFO] Post-enable running...
+21-05-09 10:02:30 [INFO] Post-enable finished.
+21-05-09 10:02:30 [INFO] ---- Version information ----
+#### Server ####
+3056-Spigot-4225eac-6f55b5b ~MC: 1.16.5~
+  detected: 1.16.5
+#### NoCheatPlus ####
+Plugin: 3.17-SNAPSHOT-Updated-b93
+MCAccess: 1.13-1.16|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12 | BlocksMC1_13 | BlocksMC1_14 | BlocksMC1_15 | BlocksMC1_16 | MCAccessBukkitModern
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0 | ViolationFrequency~NCP~ 1.0

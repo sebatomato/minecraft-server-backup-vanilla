@@ -783,6 +783,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2021-05-09 11:28:08 +0800"
+    },
+    "done": true
+  },
   "minecraft:story/follow_ender_eye": {
     "criteria": {
       "in_stronghold": "2021-01-24 23:18:40 +0800"
@@ -1259,6 +1265,7 @@
       "minecraft:warm_ocean": "2021-01-24 22:53:50 +0800",
       "minecraft:deep_lukewarm_ocean": "2021-05-01 16:34:07 +0800",
       "minecraft:beach": "2021-01-16 11:29:08 +0800",
+      "minecraft:dark_forest": "2021-05-02 21:59:46 +0800",
       "minecraft:river": "2021-01-16 15:32:00 +0800",
       "minecraft:lukewarm_ocean": "2021-01-24 22:54:11 +0800",
       "minecraft:wooded_mountains": "2021-01-24 21:23:40 +0800",
@@ -1440,6 +1447,12 @@
   "minecraft:recipes/transportation/tnt_minecart": {
     "criteria": {
       "has_minecart": "2021-01-24 23:17:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2021-05-09 11:28:08 +0800"
     },
     "done": true
   },
@@ -1827,6 +1840,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "baked_potato": "2021-02-26 23:19:22 +0800",
+      "tropical_fish": "2021-05-09 11:29:07 +0800",
       "apple": "2021-03-14 22:12:14 +0800",
       "cooked_cod": "2021-01-17 14:24:07 +0800",
       "rotten_flesh": "2021-03-14 22:16:12 +0800",
@@ -1855,6 +1869,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2021-05-09 11:28:08 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2021-01-17 10:52:07 +0800"
@@ -1864,6 +1884,12 @@
   "minecraft:recipes/redstone/jungle_button": {
     "criteria": {
       "has_planks": "2021-03-28 22:01:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2021-05-09 10:54:15 +0800"
     },
     "done": true
   },
@@ -2511,6 +2537,12 @@
   "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2021-02-26 23:33:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2021-05-09 11:29:32 +0800"
     },
     "done": true
   },
