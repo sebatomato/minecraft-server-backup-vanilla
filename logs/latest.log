@@ -1,37 +1,4 @@
-[04:40:11] [User Authenticator #111/INFO]: UUID of player steelbreach is 2abedc5b-1a4a-3311-9699-ce7c82384a73
-[04:40:11] [Server thread/INFO]: steelbreach[/60.53.126.205:55233] logged in with entity id 654988 at ([world]-17.732009354157743, 66.0, -289.65327981923684)
-[04:47:27] [Server thread/INFO]: steelbreach lost connection: Disconnected
-[04:47:27] [Server thread/INFO]: steelbreach left the game
-[10:34:55] [User Authenticator #112/INFO]: UUID of player steelbreach is 2abedc5b-1a4a-3311-9699-ce7c82384a73
-[10:34:56] [Server thread/INFO]: steelbreach[/60.53.126.205:53837] logged in with entity id 658203 at ([world]-44.192406706189544, 60.0, -243.59687517561335)
-[10:35:13] [Server thread/INFO]: steelbreach lost connection: Disconnected
-[10:35:13] [Server thread/INFO]: steelbreach left the game
-[12:08:11] [User Authenticator #113/INFO]: UUID of player steelbreach is 2abedc5b-1a4a-3311-9699-ce7c82384a73
-[12:08:11] [Server thread/INFO]: steelbreach[/60.53.126.205:61255] logged in with entity id 658739 at ([world]-52.18644388958795, 60.0, -248.40692746804632)
-[12:08:35] [Server thread/INFO]: steelbreach issued server command: /deop steelbreach
-[12:08:35] [Server thread/INFO]: [steelbreach: Made steelbreach no longer a server operator]
-[12:08:48] [Server thread/INFO]: steelbreach lost connection: Disconnected
-[12:08:48] [Server thread/INFO]: steelbreach left the game
-[12:27:43] [User Authenticator #114/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
-[12:27:44] [Server thread/INFO]: hou[/110.159.79.165:21175] logged in with entity id 658949 at ([world]-117.35793067453795, 101.0, -626.3419336545012)
-[12:31:02] [Server thread/INFO]: [Server] hi
-[12:31:06] [Async Chat Thread - #94/INFO]: <hou> hi[m
-[12:31:08] [Server thread/INFO]: [Server] i turn off xia server
-[12:31:11] [Async Chat Thread - #94/INFO]: <hou> ok[m
-[12:31:14] [Server thread/INFO]: Stopping the server
-[12:31:14] [Server thread/INFO]: Stopping server
-[12:31:14] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.1.0
-[12:31:14] [Server thread/INFO]: Saving players
-[12:31:14] [Server thread/INFO]: hou lost connection: Server closed
-[12:31:14] [Server thread/INFO]: hou left the game
-[12:31:14] [Server thread/INFO]: Saving worlds
-[12:31:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:31:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:31:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[12:31:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:31:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[12:31:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:31:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:31:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:31:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:31:16] [Server thread/INFO]: Thread Query Listener stopped
+[13:03:13] [User Authenticator #73/INFO]: UUID of player saitama is eddc90bf-162d-39fa-8419-feecbb06ba81
+[13:03:13] [Server thread/INFO]: saitama[/140.112.249.129:56156] logged in with entity id 405379 at ([world]-58.3959697005812, 65.0, -251.36274555268415)
+[13:04:26] [Server thread/INFO]: saitama lost connection: Disconnected
+[13:04:26] [Server thread/INFO]: saitama left the game
