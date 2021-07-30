@@ -1,191 +1,317 @@
-[14:21:29] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:21:29] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[14:21:30] [Worker-Main-10/INFO]: Loaded 7 recipes
-[14:21:31] [Server thread/INFO]: Starting minecraft server version 1.17
-[14:21:31] [Server thread/INFO]: Loading properties
-[14:21:31] [Server thread/INFO]: This server is running CraftBukkit version 3151-Spigot-101ebb6-68d4031 (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT)
-[14:21:31] [Server thread/INFO]: Debug logging is disabled
-[14:21:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:21:31] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:21:31] [Server thread/INFO]: Default game type: SURVIVAL
-[14:21:31] [Server thread/INFO]: Generating keypair
-[14:21:32] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[14:21:32] [Server thread/INFO]: Using default channel type
-[14:21:32] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.1
-[14:21:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:21:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:21:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:21:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:21:32] [Server thread/INFO]: Preparing level "world"
-[14:21:32] [Server thread/INFO]: -------- World Settings For [world] --------
-[14:21:32] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:21:32] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:21:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:21:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:21:32] [Server thread/INFO]: View Distance: 10
-[14:21:32] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:21:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:21:32] [Server thread/INFO]: Mob Spawn Range: 6
-[14:21:32] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:21:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:21:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:21:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:21:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:21:32] [Server thread/INFO]: Max TNT Explosions: 100
-[14:21:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:21:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:21:33] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[14:21:33] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:21:33] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:21:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:21:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:21:33] [Server thread/INFO]: View Distance: 10
-[14:21:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:21:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:21:33] [Server thread/INFO]: Mob Spawn Range: 6
-[14:21:33] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:21:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:21:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:21:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:21:33] [Server thread/INFO]: Max TNT Explosions: 100
-[14:21:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:21:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:21:33] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[14:21:33] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:21:33] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:21:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:21:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:21:33] [Server thread/INFO]: View Distance: 10
-[14:21:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:21:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:21:33] [Server thread/INFO]: Mob Spawn Range: 6
-[14:21:33] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:21:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:21:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:21:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:21:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:21:33] [Server thread/INFO]: Max TNT Explosions: 100
-[14:21:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:21:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:21:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:21:33] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[14:21:33] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[14:21:34] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[14:21:34] [Worker-Main-11/INFO]: Preparing spawn area: 1%
-[14:21:35] [Worker-Main-11/INFO]: Preparing spawn area: 5%
-[14:21:35] [Worker-Main-14/INFO]: Preparing spawn area: 25%
-[14:21:36] [Worker-Main-8/INFO]: Preparing spawn area: 68%
-[14:21:37] [Server thread/INFO]: Time elapsed: 4311 ms
-[14:21:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:21:37] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[14:21:37] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[14:21:38] [Worker-Main-14/INFO]: Preparing spawn area: 5%
-[14:21:38] [Worker-Main-10/INFO]: Preparing spawn area: 33%
-[14:21:39] [Worker-Main-10/INFO]: Preparing spawn area: 38%
-[14:21:39] [Worker-Main-8/INFO]: Preparing spawn area: 41%
-[14:21:40] [Worker-Main-13/INFO]: Preparing spawn area: 59%
-[14:21:41] [Worker-Main-11/INFO]: Preparing spawn area: 73%
-[14:21:41] [Server thread/INFO]: Time elapsed: 4013 ms
-[14:21:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:21:41] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[14:21:41] [Worker-Main-13/INFO]: Preparing spawn area: 4%
-[14:21:42] [Worker-Main-14/INFO]: Preparing spawn area: 16%
-[14:21:42] [Worker-Main-11/INFO]: Preparing spawn area: 44%
-[14:21:43] [Worker-Main-8/INFO]: Preparing spawn area: 44%
-[14:21:43] [Server thread/INFO]: Time elapsed: 2458 ms
-[14:21:43] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.1
-[14:21:44] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mUsing SpigotSkinRefresher[m
-[14:21:44] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1mDetected Minecraft [0;33;1mv1_17_R1[0;32;1m, using [0;33;1mSkinApplierBukkit[0;32;1m.[m
-[14:21:44] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mMineskinAPIKey is missing in config.yml! Using default value.[m
-[14:21:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:21:48] [Server thread/INFO]: Done (16.068s)! For help, type "help"
-[14:21:48] [Server thread/INFO]: Starting GS4 status listener
-[14:21:48] [Server thread/INFO]: Thread Query Listener started
-[14:21:48] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[14:21:49] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
-[14:21:49] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +===============+[m
-[14:21:49] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    | SkinsRestorer |[m
-[14:21:49] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |---------------|[m
-[14:21:49] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |  [0;34;1m[4m[21mBukkit only[0;32;1m  |[m
-[14:21:49] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +===============+[m
-[14:21:49] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
-[14:21:49] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;36;1m    Current version: [0;32;1m14.1.1[m
-[14:21:49] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    This is the latest version![m
-[14:21:49] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
-[14:29:33] [User Authenticator #1/INFO]: UUID of player steelbreach is 2abedc5b-1a4a-3311-9699-ce7c82384a73
-[14:29:34] [Server thread/INFO]: steelbreach[/127.0.0.1:61787] logged in with entity id 1617 at ([world]-3875.555846115976, 129.0, -173.1495344503414)
-[14:29:43] [Server thread/INFO]: steelbreach lost connection: Disconnected
-[14:29:43] [Server thread/INFO]: steelbreach left the game
-[14:31:14] [User Authenticator #2/INFO]: UUID of player steelbreach is 2abedc5b-1a4a-3311-9699-ce7c82384a73
-[14:31:15] [Server thread/INFO]: steelbreach[/147.158.247.142:61184] logged in with entity id 1858 at ([world]-3875.555846115976, 129.0, -173.1495344503414)
-[14:31:19] [Server thread/INFO]: steelbreach lost connection: Disconnected
-[14:31:19] [Server thread/INFO]: steelbreach left the game
-[14:33:35] [User Authenticator #3/INFO]: UUID of player steelbreach is 2abedc5b-1a4a-3311-9699-ce7c82384a73
-[14:33:36] [Server thread/INFO]: steelbreach[/147.158.247.142:51575] logged in with entity id 2106 at ([world]-3875.555846115976, 129.0, -173.1495344503414)
-[14:34:26] [Server thread/INFO]: steelbreach lost connection: Disconnected
-[14:34:26] [Server thread/INFO]: steelbreach left the game
-[14:41:51] [User Authenticator #4/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
-[14:41:51] [Server thread/INFO]: hou[/175.145.118.112:24149] logged in with entity id 2609 at ([world]-117.59967811668535, 101.0, -625.5236315482405)
-[15:12:10] [Server thread/INFO]: hou lost connection: Disconnected
-[15:12:10] [Server thread/INFO]: hou left the game
-[17:42:52] [Server thread/INFO]: Stopping the server
-[17:42:52] [Server thread/INFO]: Stopping server
-[17:42:52] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.1.1
-[17:42:52] [Server thread/INFO]: Saving players
-[17:42:52] [Server thread/INFO]: Saving worlds
-[17:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:42:53] [Server thread/INFO]: Thread Query Listener stopped
+[20:36:07] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:36:07] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[20:36:08] [Worker-Main-12/INFO]: Loaded 7 recipes
+[20:36:09] [Server thread/INFO]: Starting minecraft server version 1.17
+[20:36:09] [Server thread/INFO]: Loading properties
+[20:36:09] [Server thread/INFO]: This server is running CraftBukkit version 3151-Spigot-101ebb6-68d4031 (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT)
+[20:36:09] [Server thread/INFO]: Debug logging is disabled
+[20:36:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:36:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:36:09] [Server thread/INFO]: Default game type: SURVIVAL
+[20:36:09] [Server thread/INFO]: Generating keypair
+[20:36:09] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[20:36:09] [Server thread/INFO]: Using default channel type
+[20:36:10] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.1
+[20:36:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:36:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:36:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:36:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:36:10] [Server thread/INFO]: Preparing level "world"
+[20:36:10] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:36:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:36:10] [Server thread/INFO]: Mob Spawn Range: 6
+[20:36:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[20:36:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:36:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:36:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:36:10] [Server thread/INFO]: Max TNT Explosions: 100
+[20:36:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:36:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:36:10] [Server thread/INFO]: View Distance: 10
+[20:36:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:36:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:36:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:36:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:36:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:36:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:36:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:36:10] [Server thread/INFO]: Mob Spawn Range: 6
+[20:36:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[20:36:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:36:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:36:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:36:10] [Server thread/INFO]: Max TNT Explosions: 100
+[20:36:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:36:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:36:10] [Server thread/INFO]: View Distance: 10
+[20:36:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:36:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:36:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:36:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:36:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:36:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:36:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:36:10] [Server thread/INFO]: Mob Spawn Range: 6
+[20:36:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:36:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[20:36:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:36:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:36:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:36:10] [Server thread/INFO]: Max TNT Explosions: 100
+[20:36:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:36:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:36:10] [Server thread/INFO]: View Distance: 10
+[20:36:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:36:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:36:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:36:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:36:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:36:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:36:11] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[20:36:11] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[20:36:11] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[20:36:12] [Worker-Main-11/INFO]: Preparing spawn area: 12%
+[20:36:12] [Worker-Main-8/INFO]: Preparing spawn area: 41%
+[20:36:13] [Worker-Main-14/INFO]: Preparing spawn area: 82%
+[20:36:14] [Server thread/INFO]: Time elapsed: 3486 ms
+[20:36:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:36:14] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[20:36:14] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[20:36:15] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[20:36:15] [Worker-Main-8/INFO]: Preparing spawn area: 37%
+[20:36:16] [Worker-Main-11/INFO]: Preparing spawn area: 65%
+[20:36:17] [Worker-Main-13/INFO]: Preparing spawn area: 68%
+[20:36:17] [Worker-Main-9/INFO]: Preparing spawn area: 94%
+[20:36:17] [Server thread/INFO]: Time elapsed: 3457 ms
+[20:36:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:36:17] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[20:36:18] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[20:36:19] [Worker-Main-9/INFO]: Preparing spawn area: 18%
+[20:36:19] [Worker-Main-9/INFO]: Preparing spawn area: 18%
+[20:36:19] [Worker-Main-14/INFO]: Preparing spawn area: 54%
+[20:36:20] [Server thread/INFO]: Time elapsed: 2307 ms
+[20:36:20] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.1
+[20:36:20] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mUsing SpigotSkinRefresher[m
+[20:36:20] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1mDetected Minecraft [0;33;1mv1_17_R1[0;32;1m, using [0;33;1mSkinApplierBukkit[0;32;1m.[m
+[20:36:20] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mMineskinAPIKey is missing in config.yml! Using default value.[m
+[20:36:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:36:23] [Server thread/INFO]: Done (13.125s)! For help, type "help"
+[20:36:23] [Server thread/INFO]: Starting GS4 status listener
+[20:36:23] [Server thread/INFO]: Thread Query Listener started
+[20:36:23] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[20:36:24] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[20:36:24] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +===============+[m
+[20:36:24] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    | SkinsRestorer |[m
+[20:36:24] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |---------------|[m
+[20:36:24] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |  [0;34;1m[4m[21mBukkit only[0;32;1m  |[m
+[20:36:24] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +===============+[m
+[20:36:24] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[20:36:24] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;36;1m    Current version: [0;32;1m14.1.1[m
+[20:36:24] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    This is the latest version![m
+[20:36:24] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[20:50:42] [User Authenticator #1/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
+[20:50:42] [Server thread/INFO]: hou[/115.132.161.38:26978] logged in with entity id 1625 at ([world]-118.2804813447477, 101.0, -625.7386709504297)
+[20:51:05] [Server thread/INFO]: hou lost connection: Disconnected
+[20:51:05] [Server thread/INFO]: hou left the game
+[20:52:43] [User Authenticator #2/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
+[20:52:43] [Server thread/INFO]: hou[/115.132.161.38:60014] logged in with entity id 1916 at ([world]-118.2804813447477, 101.0, -625.7386709504297)
+[20:53:39] [User Authenticator #3/INFO]: UUID of player steelbreach is 2abedc5b-1a4a-3311-9699-ce7c82384a73
+[20:53:39] [Server thread/INFO]: steelbreach[/192.168.0.1:11331] logged in with entity id 2255 at ([world_nether]-481.2722675220875, 129.0, -30.723072634571917)
+[20:53:45] [Async Chat Thread - #0/INFO]: <hou> hi[m
+[20:53:52] [Async Chat Thread - #0/INFO]: <hou> long time no see[m
+[20:54:01] [Async Chat Thread - #0/INFO]: <steelbreach> hi[m
+[20:55:23] [Async Chat Thread - #1/INFO]: <steelbreach> doing what?[m
+[20:55:34] [Async Chat Thread - #1/INFO]: <hou> i deco rabbit house[m
+[20:55:38] [Async Chat Thread - #1/INFO]: <hou> u leh?[m
+[20:55:56] [Async Chat Thread - #1/INFO]: <steelbreach> dunno[m
+[20:56:02] [Async Chat Thread - #1/INFO]: <steelbreach> tired today[m
+[20:56:04] [Async Chat Thread - #1/INFO]: <steelbreach> maybe tmr[m
+[20:56:08] [Async Chat Thread - #1/INFO]: <hou> lol[m
+[20:56:12] [Async Chat Thread - #1/INFO]: <hou> OT ahh[m
+[20:56:22] [Async Chat Thread - #1/INFO]: <steelbreach> nola[m
+[20:56:54] [Async Chat Thread - #1/INFO]: <hou> dating ahh?[m
+[20:56:57] [Async Chat Thread - #1/INFO]: <steelbreach> lol[m
+[20:57:00] [Async Chat Thread - #1/INFO]: <steelbreach> no la[m
+[20:57:05] [Async Chat Thread - #1/INFO]: <hou> lol[m
+[20:57:08] [Async Chat Thread - #1/INFO]: <steelbreach> why action prevented by action mdoe a[m
+[20:57:22] [Async Chat Thread - #1/INFO]: <steelbreach> in your rabbit house[m
+[20:57:23] [Async Chat Thread - #1/INFO]: <hou> maybe ur shortcut key[m
+[20:57:33] [Async Chat Thread - #1/INFO]: <steelbreach> what shortcut le a[m
+[20:57:38] [Async Chat Thread - #1/INFO]: <steelbreach> for litematica haha[m
+[20:57:43] [Async Chat Thread - #1/INFO]: <hou> m[m
+[20:57:53] [Async Chat Thread - #1/INFO]: <steelbreach> oh ok[m
+[20:57:55] [Async Chat Thread - #1/INFO]: <steelbreach> ty[m
+[20:58:15] [Async Chat Thread - #1/INFO]: <steelbreach> ur rabbit house[m
+[20:58:19] [Async Chat Thread - #1/INFO]: <steelbreach> is litematica made?[m
+[20:58:24] [Async Chat Thread - #1/INFO]: <hou> no[m
+[20:58:31] [Async Chat Thread - #1/INFO]: <hou> hand made[m
+[20:58:31] [Async Chat Thread - #1/INFO]: <steelbreach> then why u say lan tu[m
+[20:58:40] [Async Chat Thread - #1/INFO]: <hou> lan tu?[m
+[20:58:42] [Async Chat Thread - #1/INFO]: <hou> ohh[m
+[20:58:50] [Async Chat Thread - #1/INFO]: <hou> becuz i watch a video[m
+[20:58:55] [Async Chat Thread - #1/INFO]: <hou> liwei[m
+[20:58:59] [Async Chat Thread - #1/INFO]: <steelbreach> oo[m
+[20:59:01] [Async Chat Thread - #1/INFO]: <hou> wat floor color good[m
+[20:59:11] [Async Chat Thread - #1/INFO]: <steelbreach> err[m
+[20:59:16] [Async Chat Thread - #1/INFO]: <hou> here gg[m
+[20:59:20] [Async Chat Thread - #1/INFO]: <steelbreach> pink[m
+[20:59:21] [Async Chat Thread - #1/INFO]: <hou> too many color[m
+[21:00:11] [Async Chat Thread - #1/INFO]: <steelbreach> u can see ur skin?[m
+[21:00:18] [Async Chat Thread - #1/INFO]: <hou> can[m
+[21:00:25] [Async Chat Thread - #1/INFO]: <steelbreach> use mod can?[m
+[21:00:35] [Async Chat Thread - #1/INFO]: <hou> can[m
+[21:00:40] [Async Chat Thread - #1/INFO]: <steelbreach> ok[m
+[21:00:53] [Async Chat Thread - #1/INFO]: <steelbreach> hows ur ys[m
+[21:00:59] [Async Chat Thread - #1/INFO]: <hou> normal[m
+[21:01:10] [Async Chat Thread - #1/INFO]: <steelbreach> i see wz also busy ys[m
+[21:01:15] [Async Chat Thread - #1/INFO]: <hou> ya[m
+[21:01:22] [Async Chat Thread - #1/INFO]: <hou> zy now oso[m
+[21:01:39] [Async Chat Thread - #1/INFO]: <hou> i give up haha[m
+[21:01:43] [Async Chat Thread - #1/INFO]: <hou> too many[m
+[21:02:45] [Async Chat Thread - #2/INFO]: <steelbreach> lol..[m
+[21:03:17] [Async Chat Thread - #2/INFO]: <steelbreach> lol[m
+[21:03:24] [Async Chat Thread - #2/INFO]: <steelbreach> open window vs no open[m
+[21:03:27] [Async Chat Thread - #2/INFO]: <steelbreach> no light changes[m
+[21:03:33] [Async Chat Thread - #2/INFO]: <hou> gg[m
+[21:04:18] [Async Chat Thread - #2/INFO]: <hou> liwei[m
+[21:04:21] [Async Chat Thread - #2/INFO]: <steelbreach> ?[m
+[21:04:24] [Async Chat Thread - #2/INFO]: <hou> check my new toilet[m
+[21:04:35] [Async Chat Thread - #2/INFO]: <steelbreach> ?[m
+[21:04:41] [Async Chat Thread - #2/INFO]: <hou> here[m
+[21:04:51] [Async Chat Thread - #2/INFO]: <steelbreach> wa[m
+[21:04:55] [Async Chat Thread - #2/INFO]: <steelbreach> lol[m
+[21:04:57] [Async Chat Thread - #2/INFO]: <steelbreach> high class[m
+[21:05:02] [Async Chat Thread - #2/INFO]: <hou> inside bath room[m
+[21:05:03] [Async Chat Thread - #2/INFO]: <steelbreach> wa candle[m
+[21:05:14] [Async Chat Thread - #2/INFO]: <hou> candle like shampoo bottle[m
+[21:05:26] [Async Chat Thread - #2/INFO]: <steelbreach> what this[m
+[21:05:34] [Async Chat Thread - #2/INFO]: <hou> toilet bowl[m
+[21:05:37] [Async Chat Thread - #2/INFO]: <steelbreach> ..[m
+[21:05:56] [Async Chat Thread - #2/INFO]: <hou> i want make 1 more[m
+[21:06:02] [Async Chat Thread - #2/INFO]: <steelbreach> this how make de o[m
+[21:06:07] [Async Chat Thread - #2/INFO]: <hou> which[m
+[21:06:07] [Async Chat Thread - #2/INFO]: <steelbreach> like mirror[m
+[21:06:10] [Async Chat Thread - #2/INFO]: <hou> ohh[m
+[21:06:16] [Async Chat Thread - #2/INFO]: <hou> use banner[m
+[21:06:20] [Async Chat Thread - #2/INFO]: <hou> then add color[m
+[21:06:20] [Async Chat Thread - #2/INFO]: <steelbreach> ya[m
+[21:06:24] [Async Chat Thread - #2/INFO]: <steelbreach> what color[m
+[21:06:29] [Async Chat Thread - #2/INFO]: <hou> forgot le[m
+[21:06:33] [Async Chat Thread - #2/INFO]: <steelbreach> lol[m
+[21:06:38] [Async Chat Thread - #2/INFO]: <hou> got video utube[m
+[21:06:55] [Async Chat Thread - #2/INFO]: <steelbreach> wa[m
+[21:07:03] [Async Chat Thread - #2/INFO]: <steelbreach> after changed window look high class[m
+[21:07:08] [Async Chat Thread - #2/INFO]: <hou> where[m
+[21:07:13] [Async Chat Thread - #2/INFO]: <steelbreach> there[m
+[21:07:21] [Async Chat Thread - #2/INFO]: <steelbreach> u didnt change?[m
+[21:07:28] [Async Chat Thread - #2/INFO]: <hou> a bit[m
+[21:07:32] [Async Chat Thread - #2/INFO]: <steelbreach> lol[m
+[21:07:33] [Async Chat Thread - #2/INFO]: <steelbreach> sad[m
+[21:07:37] [Async Chat Thread - #2/INFO]: <steelbreach> social distance[m
+[21:07:42] [Async Chat Thread - #2/INFO]: <steelbreach> cannot open restaurant[m
+[21:07:44] [Async Chat Thread - #2/INFO]: <hou> pukimak[m
+[21:07:51] [Async Chat Thread - #2/INFO]: <hou> sohai malaysa[m
+[21:09:45] [Async Chat Thread - #3/INFO]: <steelbreach> u hack a[m
+[21:09:49] [Async Chat Thread - #3/INFO]: <hou> ?[m
+[21:09:52] [Async Chat Thread - #3/INFO]: <hou> no[m
+[21:09:53] [Async Chat Thread - #3/INFO]: <steelbreach> why u fly[m
+[21:09:57] [Async Chat Thread - #3/INFO]: <hou> nanai[m
+[21:09:59] [Async Chat Thread - #3/INFO]: <hou> nani[m
+[21:10:01] [Async Chat Thread - #3/INFO]: <steelbreach> now ok..[m
+[21:10:08] [Async Chat Thread - #3/INFO]: <hou> ...[m
+[21:10:18] [Async Chat Thread - #3/INFO]: <hou> like this ahh?[m
+[21:10:25] [Async Chat Thread - #3/INFO]: <steelbreach> no la[m
+[21:10:33] [Async Chat Thread - #3/INFO]: <steelbreach> just now ur head in top[m
+[21:10:38] [Async Chat Thread - #3/INFO]: <hou> gg[m
+[21:10:40] [Async Chat Thread - #3/INFO]: <hou> bug[m
+[21:10:59] [Async Chat Thread - #3/INFO]: <steelbreach> gg i stuck[m
+[21:11:04] [Async Chat Thread - #3/INFO]: <hou> gg[m
+[21:11:18] [Async Chat Thread - #3/INFO]: <steelbreach> i go bath le bye[m
+[21:11:20] [Async Chat Thread - #3/INFO]: <hou> bye[m
+[21:11:21] [Server thread/INFO]: steelbreach lost connection: Disconnected
+[21:11:21] [Server thread/INFO]: steelbreach left the game
+[21:12:49] [Async Chat Thread - #4/INFO]: <hou> gg[m
+[21:14:46] [Server thread/WARN]: hou moved too quickly! -3.461519433576079,-4.15817268669106,-24.6824334606099
+[21:25:00] [Server thread/INFO]: [Server] hou u only play genshin and mc?
+[21:25:05] [Async Chat Thread - #5/INFO]: <hou> ya[m
+[21:25:24] [Server thread/INFO]: [Server] no boring meh
+[21:25:32] [Async Chat Thread - #5/INFO]: <hou> no[m
+[21:25:40] [Server thread/INFO]: [Server] lol u got genshin ma
+[21:25:45] [Server thread/INFO]: [Server] i no genshin
+[21:25:51] [Async Chat Thread - #5/INFO]: <hou> 2 almost break my liver[m
+[21:26:02] [Server thread/INFO]: [Server] true
+[21:51:14] [Server thread/INFO]: hou lost connection: Disconnected
+[21:51:14] [Server thread/INFO]: hou left the game
+[21:52:51] [User Authenticator #4/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
+[21:52:51] [Server thread/INFO]: hou[/115.132.161.38:33135] logged in with entity id 12670 at ([world]-115.11122095673028, 101.0, -619.5947718277033)
+[21:53:10] [Server thread/INFO]: [Server] paiseh my internet dc..
+[21:53:14] [Async Chat Thread - #6/INFO]: <hou> lol[m
+[21:53:21] [Server thread/INFO]: [Server] my phone also dc..
+[21:57:45] [Server thread/INFO]: hou lost connection: Disconnected
+[21:57:45] [Server thread/INFO]: hou left the game
+[22:15:50] [User Authenticator #5/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
+[22:15:50] [Server thread/INFO]: hou[/115.132.161.38:25973] logged in with entity id 13544 at ([world]-114.30000001192093, 101.0, -620.6999999880791)
+[22:47:10] [Server thread/INFO]: hou lost connection: Disconnected
+[22:47:10] [Server thread/INFO]: hou left the game
+[22:54:43] [Server thread/INFO]: Stopping the server
+[22:54:43] [Server thread/INFO]: Stopping server
+[22:54:43] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.1.1
+[22:54:43] [Server thread/INFO]: Saving players
+[22:54:43] [Server thread/INFO]: Saving worlds
+[22:54:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:54:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:54:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:54:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:54:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:54:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:54:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:54:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:54:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:54:44] [Server thread/INFO]: Thread Query Listener stopped
