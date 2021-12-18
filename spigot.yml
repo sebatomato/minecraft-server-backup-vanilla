@@ -12,6 +12,7 @@
 
 config-version: 12
 settings:
+  log-named-deaths: true
   debug: false
   save-user-cache-on-stop-only: false
   moved-too-quickly-multiplier: 10.0
@@ -62,6 +63,9 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    below-zero-generation-in-existing-chunks: true
+    simulation-distance: default
+    thunder-chance: 100000
     verbose: true
     enable-zombie-pigmen-portal-spawns: true
     view-distance: default

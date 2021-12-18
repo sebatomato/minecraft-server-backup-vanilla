@@ -1,1134 +1,680 @@
-[19:51:40] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:51:41] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[19:51:42] [Worker-Main-14/INFO]: Loaded 7 recipes
-[19:51:44] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[19:51:44] [Server thread/INFO]: Loading properties
-[19:51:45] [Server thread/INFO]: This server is running CraftBukkit version 3360-Spigot-f65de01-c2e0bbd (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT)
-[19:51:45] [Server thread/INFO]: Debug logging is disabled
-[19:51:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:51:45] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:51:45] [Server thread/INFO]: Default game type: SURVIVAL
-[19:51:45] [Server thread/INFO]: Generating keypair
-[19:51:45] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[19:51:45] [Server thread/INFO]: Using default channel type
-[19:51:46] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.7
-[19:51:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:51:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:51:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:51:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:51:46] [Server thread/INFO]: Preparing level "world"
-[19:51:47] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:51:47] [Server thread/INFO]: Mob Spawn Range: 6
-[19:51:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:51:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[19:51:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:51:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[19:51:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:51:47] [Server thread/INFO]: Max TNT Explosions: 100
-[19:51:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:51:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:51:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:51:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:51:47] [Server thread/INFO]: View Distance: 10
-[19:51:47] [Server thread/INFO]: Simulation Distance: 10
-[19:51:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:51:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:51:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:51:47] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[19:51:47] [Server thread/INFO]: Mob Spawn Range: 6
-[19:51:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:51:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:51:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[19:51:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:51:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[19:51:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:51:47] [Server thread/INFO]: Max TNT Explosions: 100
-[19:51:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:51:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:51:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:51:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:51:47] [Server thread/INFO]: View Distance: 10
-[19:51:47] [Server thread/INFO]: Simulation Distance: 10
-[19:51:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:51:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:51:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:51:48] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:51:48] [Server thread/INFO]: Mob Spawn Range: 6
-[19:51:48] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:51:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:51:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[19:51:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:51:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[19:51:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:51:48] [Server thread/INFO]: Max TNT Explosions: 100
-[19:51:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:51:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:51:48] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:51:48] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:51:48] [Server thread/INFO]: View Distance: 10
-[19:51:48] [Server thread/INFO]: Simulation Distance: 10
-[19:51:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:51:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:51:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:51:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:51:49] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[19:51:49] [Worker-Main-22/INFO]: Preparing spawn area: 0%
-[19:51:49] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[19:51:49] [Worker-Main-22/INFO]: Preparing spawn area: 0%
-[19:51:50] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[19:51:50] [Worker-Main-22/INFO]: Preparing spawn area: 0%
-[19:51:51] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[19:51:51] [Worker-Main-20/INFO]: Preparing spawn area: 4%
-[19:51:52] [Worker-Main-16/INFO]: Preparing spawn area: 8%
-[19:51:52] [Worker-Main-22/INFO]: Preparing spawn area: 11%
-[19:51:53] [Worker-Main-16/INFO]: Preparing spawn area: 21%
-[19:51:53] [Worker-Main-19/INFO]: Preparing spawn area: 38%
-[19:51:54] [Worker-Main-16/INFO]: Preparing spawn area: 51%
-[19:51:54] [Worker-Main-19/INFO]: Preparing spawn area: 73%
-[19:51:55] [Worker-Main-22/INFO]: Preparing spawn area: 96%
-[19:51:56] [Server thread/INFO]: Time elapsed: 8073 ms
-[19:51:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:51:57] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[19:51:57] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[19:51:57] [Worker-Main-22/INFO]: Preparing spawn area: 0%
-[19:51:57] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[19:51:58] [Worker-Main-19/INFO]: Preparing spawn area: 6%
-[19:51:58] [Worker-Main-14/INFO]: Preparing spawn area: 7%
-[19:51:59] [Worker-Main-22/INFO]: Preparing spawn area: 10%
-[19:52:00] [Worker-Main-17/INFO]: Preparing spawn area: 10%
-[19:52:00] [Worker-Main-13/INFO]: Preparing spawn area: 10%
-[19:52:00] [Worker-Main-21/INFO]: Preparing spawn area: 10%
-[19:52:01] [Worker-Main-20/INFO]: Preparing spawn area: 10%
-[19:52:01] [Worker-Main-13/INFO]: Preparing spawn area: 13%
-[19:52:02] [Worker-Main-22/INFO]: Preparing spawn area: 20%
-[19:52:02] [Worker-Main-13/INFO]: Preparing spawn area: 41%
-[19:52:03] [Worker-Main-15/INFO]: Preparing spawn area: 71%
-[19:52:04] [Worker-Main-20/INFO]: Preparing spawn area: 85%
-[19:52:04] [Worker-Main-15/INFO]: Preparing spawn area: 97%
-[19:52:04] [Server thread/INFO]: Time elapsed: 8082 ms
-[19:52:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:52:04] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[19:52:04] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[19:52:05] [Worker-Main-15/INFO]: Preparing spawn area: 1%
-[19:52:05] [Worker-Main-17/INFO]: Preparing spawn area: 6%
-[19:52:06] [Worker-Main-14/INFO]: Preparing spawn area: 21%
-[19:52:07] [Worker-Main-20/INFO]: Preparing spawn area: 41%
-[19:52:07] [Worker-Main-14/INFO]: Preparing spawn area: 78%
-[19:52:07] [Server thread/INFO]: Time elapsed: 3168 ms
-[19:52:07] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.7
-[19:52:07] [Server thread/ERROR]: §e[§2SkinsRestorer§e] §rYour Minecraft version is not supported by this version of SkinsRestorer! Is there a newer version available? If not, join our discord server!
-[19:52:07] [Server thread/ERROR]: §e[§2SkinsRestorer§e] §r§c§nCould not initialize SkinApplier! Please report this on our discord server! 
-net.skinsrestorer.shared.exception.InitializeException: No mapping for this minecraft version found!
-	at net.skinsrestorer.bukkit.skinrefresher.MappingSpigotSkinRefresher.<init>(MappingSpigotSkinRefresher.java:45) ~[?:?]
-	at net.skinsrestorer.bukkit.SkinApplierBukkit.selectSpigotRefresher(SkinApplierBukkit.java:89) ~[?:?]
-	at net.skinsrestorer.bukkit.SkinApplierBukkit.detectRefresh(SkinApplierBukkit.java:84) ~[?:?]
-	at net.skinsrestorer.bukkit.SkinApplierBukkit.<init>(SkinApplierBukkit.java:61) ~[?:?]
-	at net.skinsrestorer.bukkit.SkinsRestorer.onEnable(SkinsRestorer.java:120) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:525) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:439) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:612) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:262) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[19:52:07] [Server thread/ERROR]: Error occurred while enabling SkinsRestorer v14.1.7 (Is it up to date?)
-java.lang.NullPointerException: Cannot invoke "net.skinsrestorer.bukkit.SkinApplierBukkit.getRefresh()" because "this.skinApplierBukkit" is null
-	at net.skinsrestorer.bukkit.SkinsRestorer.onEnable(SkinsRestorer.java:125) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:525) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:439) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:612) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:262) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[19:52:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:52:07] [Server thread/INFO]: Done (21.178s)! For help, type "help"
-[19:52:07] [Server thread/INFO]: Starting GS4 status listener
-[19:52:07] [Server thread/INFO]: Thread Query Listener started
-[19:52:07] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[20:02:36] [User Authenticator #1/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
-[20:02:36] [Server thread/INFO]: hou[/175.145.118.241:2855] logged in with entity id 1543 at ([world]-3959.020747275129, 78.0, -1846.255374199235)
-[20:19:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
-[20:20:50] [Server thread/INFO]: hou has completed the challenge [Hot Tourist Destinations]
-[20:35:37] [Server thread/WARN]: hou moved too quickly! 35.51375838026983,-4.274524898031757,14.00488727791776
-[20:35:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5603ms or 112 ticks behind
-[20:36:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5783ms or 115 ticks behind
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11225, l='ServerLevel[world]', x=314.17, y=67.00, z=1081.80]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11226, l='ServerLevel[world]', x=341.49, y=63.00, z=1083.49]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11227, l='ServerLevel[world]', x=349.81, y=63.00, z=1080.81]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11232, l='ServerLevel[world]', x=353.48, y=63.00, z=1083.33]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11243, l='ServerLevel[world]', x=292.22, y=64.00, z=1090.50]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11244, l='ServerLevel[world]', x=307.92, y=65.00, z=1094.60]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11245, l='ServerLevel[world]', x=308.53, y=65.00, z=1097.47]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11246, l='ServerLevel[world]', x=318.10, y=65.00, z=1091.01]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11247, l='ServerLevel[world]', x=328.55, y=78.00, z=1095.07]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11248, l='ServerLevel[world]', x=335.60, y=65.00, z=1096.42]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11262, l='ServerLevel[world]', x=339.80, y=64.00, z=1091.22]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11263, l='ServerLevel[world]', x=355.67, y=63.00, z=1088.58]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11264, l='ServerLevel[world]', x=352.40, y=63.00, z=1090.33]
-[20:36:16] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11265, l='ServerLevel[world]', x=360.44, y=64.00, z=1095.57]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11284, l='ServerLevel[world]', x=294.55, y=65.00, z=1105.55]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11285, l='ServerLevel[world]', x=290.36, y=65.00, z=1105.21]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11286, l='ServerLevel[world]', x=310.50, y=65.00, z=1116.50]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11287, l='ServerLevel[world]', x=313.67, y=66.00, z=1105.38]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11289, l='ServerLevel[world]', x=328.46, y=65.00, z=1105.94]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11290, l='ServerLevel[world]', x=326.87, y=64.00, z=1112.46]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11302, l='ServerLevel[world]', x=364.49, y=64.00, z=1112.53]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11303, l='ServerLevel[world]', x=363.02, y=64.00, z=1108.61]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11304, l='ServerLevel[world]', x=362.43, y=64.00, z=1104.55]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11317, l='ServerLevel[world]', x=350.44, y=63.00, z=1123.17]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11318, l='ServerLevel[world]', x=320.55, y=64.00, z=1124.47]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11319, l='ServerLevel[world]', x=309.50, y=65.00, z=1123.50]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11320, l='ServerLevel[world]', x=302.84, y=65.00, z=1120.84]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11324, l='ServerLevel[world]', x=373.61, y=65.00, z=1131.14]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityItem['Cactus'/11325, l='ServerLevel[world]', x=399.03, y=58.00, z=1133.20]
-[20:36:17] [Server thread/WARN]: UUID of added entity already exists: EntityItem['Stick'/11326, l='ServerLevel[world]', x=388.96, y=62.00, z=1128.07]
-[20:36:18] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['?????????   '/11340, l='ServerLevel[world]', x=376.19, y=65.00, z=1141.50]
-[20:36:18] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11341, l='ServerLevel[world]', x=382.46, y=65.00, z=1139.35]
-[20:36:18] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['?????????  '/11342, l='ServerLevel[world]', x=377.59, y=64.00, z=1144.37]
-[20:36:18] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11347, l='ServerLevel[world]', x=388.40, y=65.00, z=1146.23]
-[20:36:18] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11348, l='ServerLevel[world]', x=389.93, y=65.00, z=1147.03]
-[20:36:18] [Server thread/WARN]: UUID of added entity already exists: EntityPillager['Pillager'/11349, l='ServerLevel[world]', x=396.53, y=64.00, z=1151.49]
-[20:36:18] [Server thread/WARN]: UUID of added entity already exists: EntityRabbit['Rabbit'/11376, l='ServerLevel[world]', x=437.18, y=69.00, z=1102.51]
-[20:36:19] [Server thread/WARN]: UUID of added entity already exists: EntityRabbit['Rabbit'/11383, l='ServerLevel[world]', x=450.31, y=68.00, z=1076.69]
-[20:36:32] [Server thread/WARN]: UUID of added entity already exists: EntityHorseDonkey['??????????'/11431, l='ServerLevel[world]', x=490.38, y=71.00, z=1119.86]
-[20:36:35] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/11509, l='ServerLevel[world]', x=537.73, y=69.00, z=905.39]
-[20:36:35] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/11510, l='ServerLevel[world]', x=536.84, y=68.00, z=897.80]
-[20:36:35] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/11511, l='ServerLevel[world]', x=539.52, y=68.00, z=899.17]
-[20:36:35] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/11512, l='ServerLevel[world]', x=536.45, y=67.00, z=892.55]
-[20:36:36] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/11543, l='ServerLevel[world]', x=565.31, y=72.00, z=885.23]
-[20:36:36] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/11544, l='ServerLevel[world]', x=574.59, y=75.00, z=881.32]
-[20:36:40] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/11618, l='ServerLevel[world]', x=617.56, y=67.00, z=952.42]
-[20:36:40] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/11619, l='ServerLevel[world]', x=619.71, y=67.00, z=944.69]
-[20:36:40] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/11620, l='ServerLevel[world]', x=619.78, y=67.00, z=949.10]
-[20:36:41] [Server thread/WARN]: hou moved too quickly! -9.126898730113567,-7.779238435439922,-30.22132781615437
-[20:36:44] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/11679, l='ServerLevel[world]', x=624.26, y=68.00, z=932.50]
-[20:38:24] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/13077, l='ServerLevel[world]', x=676.88, y=70.00, z=930.45]
-[20:52:17] [Async Chat Thread - #0/INFO]: <hou> 149 200[m
-[20:56:07] [Server thread/INFO]: hou lost connection: Disconnected
-[20:56:07] [Server thread/INFO]: hou left the game
-[21:03:42] [User Authenticator #2/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
-[21:03:42] [Server thread/INFO]: hou[/175.145.118.241:48803] logged in with entity id 18690 at ([world]1064.2328919363736, 66.0, 1564.1012929597896)
-[21:07:11] [Server thread/WARN]: hou moved too quickly! -0.49101689016833916,-5.419717013093987,-39.713993335660234
-[21:24:26] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:cactus"}]; No key feature in MapLike[{config:{},name:"minecraft:cactus"}]
-[21:24:26] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:24:26] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:cactus"}]; No key feature in MapLike[{config:{},name:"minecraft:cactus"}]
-[21:24:26] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:24:26] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:cactus"}]; No key feature in MapLike[{config:{},name:"minecraft:cactus"}]
-[21:24:26] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:24:26] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:cactus"}]; No key feature in MapLike[{config:{},name:"minecraft:cactus"}]
-[21:24:26] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:24:26] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:cactus"}]; No key feature in MapLike[{config:{},name:"minecraft:cactus"}]
-[21:24:26] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:24:26] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:cactus"}]; No key feature in MapLike[{config:{},name:"minecraft:cactus"}]
-[21:24:26] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:24:26] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:cactus"}]; No key feature in MapLike[{config:{},name:"minecraft:cactus"}]
-[21:24:26] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:24:26] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:hay_pile"}]; No key feature in MapLike[{config:{},name:"minecraft:hay_pile"}]
-[21:24:26] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:30:24] [Server thread/INFO]: hou lost connection: Timed out
-[21:30:24] [Server thread/INFO]: hou left the game
-[21:31:02] [User Authenticator #3/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
-[21:31:02] [Server thread/INFO]: hou[/175.145.118.241:38909] logged in with entity id 26647 at ([world]1270.7657037022975, 72.70155304879779, 1935.6810437844229)
-[21:34:48] [Server thread/INFO]: hou lost connection: Timed out
-[21:34:48] [Server thread/INFO]: hou left the game
-[21:35:07] [User Authenticator #4/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
-[21:35:07] [Server thread/INFO]: hou[/175.145.118.241:57922] logged in with entity id 28033 at ([world]803.8522120340396, 64.0, 1714.2339645643542)
-[21:45:09] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:45:09] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:45:09] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:45:09] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:45:09] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:45:09] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:45:09] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:45:09] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:45:09] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:45:09] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:45:09] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:45:09] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:46:23] [Server thread/INFO]: hou lost connection: Timed out
-[21:46:23] [Server thread/INFO]: hou left the game
-[21:46:39] [User Authenticator #5/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
-[21:46:39] [Server thread/INFO]: hou[/175.145.118.241:14500] logged in with entity id 30713 at ([world]955.0587027309779, 65.0, 402.7832008069648)
-[21:51:45] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:51:45] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:51:45] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:51:45] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:51:45] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:51:45] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:51:45] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:51:45] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:51:45] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:51:45] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:52:23] [Server thread/INFO]: Villager EntityVillager['Farmer'/34291, l='ServerLevel[world]', x=1054.70, y=63.00, z=-776.81] died, message: 'Farmer was shot by Pillager'
-[21:52:27] [Server thread/INFO]: hou lost connection: Disconnected
-[21:52:27] [Server thread/INFO]: hou left the game
-[21:54:20] [User Authenticator #6/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
-[21:54:20] [Server thread/INFO]: hou[/175.145.118.241:47428] logged in with entity id 34583 at ([world]1070.9403696046884, 82.37090032775716, -728.9496407875652)
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:55:11] [Server thread/ERROR]: No key placement in MapLike[{config:{},name:"minecraft:no_op"}]; No key feature in MapLike[{config:{},name:"minecraft:no_op"}]
-[21:55:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.a(SourceFile:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:141) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:565) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:248) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.lambda$21(PlayerChunkMap.java:588) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:151) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.c(ChunkProviderServer.java:634) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:125) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer$b.y(ChunkProviderServer.java:645) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.d(ChunkProviderServer.java:325) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1130) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:110) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1113) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1038) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[21:56:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5154ms or 103 ticks behind
-[21:56:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16003ms or 320 ticks behind
-[21:58:59] [Server thread/INFO]: hou lost connection: Disconnected
-[21:59:01] [Server thread/INFO]: hou left the game
-[21:59:01] [User Authenticator #7/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
-[21:59:11] [Server thread/INFO]: com.mojang.authlib.GameProfile@6e971cba[id=74844237-bae2-36c3-9f9c-1c2a280ba6e7,name=hou,properties={},legacy=false] (/175.145.118.241:58875) lost connection: Disconnected
-[21:59:13] [User Authenticator #8/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
-[21:59:13] [Server thread/INFO]: hou[/175.145.118.241:58879] logged in with entity id 36534 at ([world]1137.153650326888, 60.459575194577084, -587.3428382208383)
-[21:59:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 125808ms or 2516 ticks behind
-[22:01:28] [Server thread/INFO]: hou lost connection: Disconnected
-[22:01:30] [Server thread/INFO]: hou left the game
-[22:01:33] [User Authenticator #9/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
-[22:01:39] [Server thread/INFO]: com.mojang.authlib.GameProfile@62612e67[id=74844237-bae2-36c3-9f9c-1c2a280ba6e7,name=hou,properties={},legacy=false] (/175.145.118.241:8439) lost connection: Disconnected
-[22:01:39] [User Authenticator #10/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
-[22:01:54] [Server thread/ERROR]: Encountered an unexpected exception
-java.lang.OutOfMemoryError: Java heap space
-	at net.minecraft.network.protocol.game.ClientboundLevelChunkPacketData.<init>(SourceFile:39) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.network.protocol.game.ClientboundLevelChunkWithLightPacket.<init>(SourceFile:24) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.a(PlayerChunkMap.java:1322) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.a(PlayerChunkMap.java:907) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.a(PlayerChunkMap.java:1077) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.a(PlayerChunkMap.java:1222) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.b(ChunkProviderServer.java:558) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.WorldServer$a.e(WorldServer.java:1880) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.WorldServer$a.b(WorldServer.java:1) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.e(PersistentEntitySectionManager.java:146) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.a(PersistentEntitySectionManager.java:109) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.a(PersistentEntitySectionManager.java:90) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.WorldServer.e(WorldServer.java:983) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.WorldServer.c(WorldServer.java:967) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:315) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:193) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:179) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.network.LoginListener.b(LoginListener.java:74) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:246) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:172) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1322) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:428) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1206) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1034) [spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) [spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer$$Lambda$4160/0x0000000801409f38.run(Unknown Source) [spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[22:01:55] [Server thread/ERROR]: This crash report has been saved to: D:\minecraft-server-backup-vanilla-main 1.18.1\.\crash-reports\crash-2021-12-17_22.01.55-server.txt
-[22:01:55] [Server thread/INFO]: Stopping server
-[22:01:56] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.1.7
-[22:01:56] [Server thread/INFO]: Saving players
-[22:01:57] [Server thread/INFO]: hou lost connection: Server closed
-[22:01:59] [Server thread/INFO]: hou left the game
-[22:01:59] [Server thread/INFO]: Saving worlds
-[22:01:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:02:34] [Server thread/ERROR]: Exception stopping the server
-java.lang.OutOfMemoryError: Java heap space
-	at net.minecraft.world.level.chunk.DataPaletteBlock.a(SourceFile:225) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.DataPaletteBlock.a(SourceFile:58) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.world.level.chunk.DataPaletteBlock$$Lambda$4413/0x0000000801629d30.apply(Unknown Source) ~[?:?]
-	at com.mojang.serialization.Encoder$1.encode(Encoder.java:25) ~[datafixerupper-4.0.26.jar:?]
-	at com.mojang.serialization.Codec$2.encode(Codec.java:76) ~[datafixerupper-4.0.26.jar:?]
-	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14) ~[datafixerupper-4.0.26.jar:?]
-	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:378) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap.a(PlayerChunkMap.java:833) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.PlayerChunkMap$$Lambda$6685/0x0000000801ac88f8.test(Unknown Source) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at net.minecraft.server.level.PlayerChunkMap.a(PlayerChunkMap.java:430) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.ChunkProviderServer.a(ChunkProviderServer.java:356) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.level.WorldServer.a(WorldServer.java:862) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:836) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.t(MinecraftServer.java:930) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.dedicated.DedicatedServer.t(DedicatedServer.java:716) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1079) [spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) [spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at net.minecraft.server.MinecraftServer$$Lambda$4160/0x0000000801409f38.run(Unknown Source) [spigot-1.18.1-R0.1-SNAPSHOT.jar:3360-Spigot-f65de01-c2e0bbd]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[22:02:35] [Server thread/INFO]: Thread Query Listener stopped
+[13:50:58] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:50:59] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[13:50:59] [Worker-Main-14/INFO]: Loaded 7 recipes
+[13:51:02] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[13:51:02] [Server thread/INFO]: Loading properties
+[13:51:02] [Server thread/INFO]: This server is running CraftBukkit version 3360-Spigot-f65de01-c2e0bbd (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT)
+[13:51:02] [Server thread/INFO]: Debug logging is disabled
+[13:51:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:51:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:51:02] [Server thread/INFO]: Default game type: SURVIVAL
+[13:51:02] [Server thread/INFO]: Generating keypair
+[13:51:02] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[13:51:02] [Server thread/INFO]: Using default channel type
+[13:51:03] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
+[13:51:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:51:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:51:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:51:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:51:03] [Server thread/INFO]: Preparing level "world"
+[13:51:04] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:51:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:51:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:51:04] [Server thread/INFO]: Mob Spawn Range: 6
+[13:51:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:51:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:51:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:51:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[13:51:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:51:04] [Server thread/INFO]: Max TNT Explosions: 100
+[13:51:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:51:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:51:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:51:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:51:04] [Server thread/INFO]: View Distance: 10
+[13:51:04] [Server thread/INFO]: Simulation Distance: 10
+[13:51:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:51:04] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:51:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:51:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:51:04] [Server thread/INFO]: Mob Spawn Range: 6
+[13:51:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:51:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:51:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:51:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[13:51:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:51:04] [Server thread/INFO]: Max TNT Explosions: 100
+[13:51:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:51:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:51:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:51:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:51:04] [Server thread/INFO]: View Distance: 10
+[13:51:04] [Server thread/INFO]: Simulation Distance: 10
+[13:51:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:51:04] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:51:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:51:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:51:04] [Server thread/INFO]: Mob Spawn Range: 6
+[13:51:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:51:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:51:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:51:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:51:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[13:51:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:51:04] [Server thread/INFO]: Max TNT Explosions: 100
+[13:51:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:51:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:51:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:51:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:51:04] [Server thread/INFO]: View Distance: 10
+[13:51:04] [Server thread/INFO]: Simulation Distance: 10
+[13:51:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:51:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:51:05] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[13:51:06] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[13:51:06] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[13:51:06] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[13:51:06] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[13:51:07] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[13:51:07] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[13:51:08] [Worker-Main-22/INFO]: Preparing spawn area: 2%
+[13:51:08] [Worker-Main-22/INFO]: Preparing spawn area: 10%
+[13:51:09] [Worker-Main-14/INFO]: Preparing spawn area: 15%
+[13:51:09] [Worker-Main-17/INFO]: Preparing spawn area: 26%
+[13:51:10] [Worker-Main-19/INFO]: Preparing spawn area: 37%
+[13:51:10] [Worker-Main-14/INFO]: Preparing spawn area: 64%
+[13:51:11] [Worker-Main-13/INFO]: Preparing spawn area: 82%
+[13:51:11] [Worker-Main-13/INFO]: Preparing spawn area: 82%
+[13:51:12] [Server thread/INFO]: Time elapsed: 7948 ms
+[13:51:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:51:13] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[13:51:13] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[13:51:13] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[13:51:14] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[13:51:14] [Worker-Main-22/INFO]: Preparing spawn area: 4%
+[13:51:15] [Worker-Main-17/INFO]: Preparing spawn area: 14%
+[13:51:15] [Worker-Main-14/INFO]: Preparing spawn area: 19%
+[13:51:16] [Worker-Main-12/INFO]: Preparing spawn area: 27%
+[13:51:16] [Worker-Main-22/INFO]: Preparing spawn area: 34%
+[13:51:17] [Worker-Main-13/INFO]: Preparing spawn area: 35%
+[13:51:17] [Worker-Main-20/INFO]: Preparing spawn area: 35%
+[13:51:18] [Worker-Main-15/INFO]: Preparing spawn area: 36%
+[13:51:18] [Worker-Main-18/INFO]: Preparing spawn area: 48%
+[13:51:19] [Worker-Main-17/INFO]: Preparing spawn area: 50%
+[13:51:19] [Worker-Main-13/INFO]: Preparing spawn area: 51%
+[13:51:20] [Worker-Main-14/INFO]: Preparing spawn area: 74%
+[13:51:20] [Server thread/INFO]: Time elapsed: 7884 ms
+[13:51:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:51:21] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[13:51:21] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[13:51:21] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[13:51:22] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[13:51:22] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[13:51:23] [Worker-Main-14/INFO]: Preparing spawn area: 6%
+[13:51:23] [Worker-Main-21/INFO]: Preparing spawn area: 10%
+[13:51:24] [Worker-Main-21/INFO]: Preparing spawn area: 12%
+[13:51:24] [Worker-Main-21/INFO]: Preparing spawn area: 12%
+[13:51:25] [Worker-Main-17/INFO]: Preparing spawn area: 24%
+[13:51:25] [Worker-Main-22/INFO]: Preparing spawn area: 51%
+[13:51:26] [Worker-Main-20/INFO]: Preparing spawn area: 80%
+[13:51:26] [Server thread/INFO]: Time elapsed: 5707 ms
+[13:51:26] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
+[13:51:26] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1mDetected Minecraft [0;33;1mv1_18_R1[0;32;1m, using [0;33;1mMappingSpigotSkinRefresher[0;32;1m.[m
+[13:51:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:51:29] [Server thread/INFO]: Done (25.786s)! For help, type "help"
+[13:51:29] [Server thread/INFO]: Starting GS4 status listener
+[13:51:29] [Server thread/INFO]: Thread Query Listener started
+[13:51:29] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[13:51:29] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[13:51:29] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +==================+[m
+[13:51:29] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |   SkinsRestorer  |[m
+[13:51:29] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |------------------|[m
+[13:51:29] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |  [0;34;1m[4m[21mStandalone Mode[0;32;1m |[m
+[13:51:29] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +==================+[m
+[13:51:29] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[13:51:29] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;36;1m    Current version: [0;32;1m14.1.10[m
+[13:51:29] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    This is the latest version![m
+[13:51:29] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[13:51:29] [User Authenticator #1/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
+[13:51:30] [Server thread/INFO]: hou[/1.32.68.120:39993] logged in with entity id 1557 at ([world]-117.30000001192093, 101.0, -626.6043213708687)
+[13:58:48] [Server thread/INFO]: [Server] makan makan
+[13:59:10] [Async Chat Thread - #0/INFO]: <hou> u makan habis?[m
+[13:59:18] [Server thread/INFO]: [Server] belum
+[13:59:24] [User Authenticator #2/INFO]: UUID of player steelbreach is 2abedc5b-1a4a-3311-9699-ce7c82384a73
+[13:59:24] [Server thread/INFO]: steelbreach[/61.6.122.125:58026] logged in with entity id 3077 at ([world]48.28568567655143, 77.0, -530.5056779357296)
+[13:59:27] [Server thread/INFO]: steelbreach lost connection: Disconnected
+[13:59:27] [Server thread/INFO]: steelbreach left the game
+[13:59:36] [User Authenticator #3/INFO]: UUID of player steelbreach is 2abedc5b-1a4a-3311-9699-ce7c82384a73
+[13:59:36] [Server thread/INFO]: steelbreach[/61.6.122.125:58040] logged in with entity id 3290 at ([world]48.28568567655143, 77.0, -530.5056779357296)
+[13:59:44] [Async Chat Thread - #0/INFO]: <steelbreach> but i come[m
+[13:59:54] [Async Chat Thread - #0/INFO]: <hou> come duper[m
+[14:00:02] [Async Chat Thread - #0/INFO]: <steelbreach> ok[m
+[14:00:08] [Async Chat Thread - #0/INFO]: <hou> here many treasure[m
+[14:01:05] [Async Chat Thread - #0/INFO]: <steelbreach> lol where duper le o[m
+[14:01:09] [Async Chat Thread - #0/INFO]: <steelbreach> i found warp forest..[m
+[14:01:16] [Async Chat Thread - #0/INFO]: <hou> gg[m
+[14:01:20] [Async Chat Thread - #0/INFO]: <hou> u walk over le[m
+[14:01:28] [Async Chat Thread - #0/INFO]: <hou> got a scaffold de[m
+[14:01:30] [Async Chat Thread - #0/INFO]: <hou> there up[m
+[14:01:44] [Async Chat Thread - #0/INFO]: <steelbreach> oh[m
+[14:01:52] [Async Chat Thread - #0/INFO]: <hou> fly up[m
+[14:02:01] [Async Chat Thread - #0/INFO]: <steelbreach> why so many pig down there ah[m
+[14:02:03] [Async Chat Thread - #0/INFO]: <hou> here rich[m
+[14:02:09] [Async Chat Thread - #0/INFO]: <hou> becuz no light[m
+[14:02:15] [Async Chat Thread - #0/INFO]: <steelbreach> got a[m
+[14:02:22] [Async Chat Thread - #0/INFO]: <hou> lol[m
+[14:02:25] [Async Chat Thread - #0/INFO]: <hou> still working[m
+[14:02:32] [Async Chat Thread - #0/INFO]: <hou> gg[m
+[14:02:39] [Async Chat Thread - #0/INFO]: <steelbreach> exp?[m
+[14:02:46] [Async Chat Thread - #0/INFO]: <hou> cruel[m
+[14:02:58] [Async Chat Thread - #0/INFO]: <steelbreach> lol[m
+[14:03:09] [Async Chat Thread - #0/INFO]: <steelbreach> see[m
+[14:03:17] [Async Chat Thread - #0/INFO]: <hou> where[m
+[14:03:20] [Async Chat Thread - #0/INFO]: <steelbreach> there[m
+[14:03:24] [Async Chat Thread - #0/INFO]: <hou> gg[m
+[14:03:34] [Async Chat Thread - #0/INFO]: <steelbreach> he cant move ah[m
+[14:03:43] [Async Chat Thread - #0/INFO]: <hou> err[m
+[14:03:46] [Async Chat Thread - #0/INFO]: <hou> maybe[m
+[14:04:45] [Async Chat Thread - #0/INFO]: <hou> gogo ice[m
+[14:04:58] [Async Chat Thread - #0/INFO]: <hou> build road[m
+[14:04:59] [Async Chat Thread - #0/INFO]: <steelbreach> not much le la[m
+[14:05:01] [Async Chat Thread - #0/INFO]: <steelbreach> gogo[m
+[14:05:04] [Async Chat Thread - #0/INFO]: <hou> down[m
+[14:05:04] [Async Chat Thread - #0/INFO]: <steelbreach> where[m
+[14:05:41] [Async Chat Thread - #0/INFO]: <hou> babi[m
+[14:06:02] [Async Chat Thread - #0/INFO]: <hou> here free shuljker[m
+[14:06:48] [Async Chat Thread - #0/INFO]: <hou> north part now ok[m
+[14:06:56] [Async Chat Thread - #0/INFO]: <steelbreach> wa[m
+[14:06:57] [Async Chat Thread - #0/INFO]: <hou> now south and west[m
+[14:07:06] [Async Chat Thread - #0/INFO]: <hou> build main road first[m
+[14:07:09] [Async Chat Thread - #0/INFO]: <steelbreach> ya[m
+[14:07:49] [Async Chat Thread - #0/INFO]: <steelbreach> east done?[m
+[14:07:53] [Async Chat Thread - #0/INFO]: <hou> done[m
+[14:08:06] [Async Chat Thread - #0/INFO]: <steelbreach> i go south[m
+[14:08:11] [Async Chat Thread - #0/INFO]: <hou> i at south[m
+[14:08:18] [Async Chat Thread - #0/INFO]: <hou> ok la come tohether[m
+[14:08:20] [Async Chat Thread - #0/INFO]: <steelbreach> err west haha[m
+[14:08:21] [Async Chat Thread - #0/INFO]: <hou> together[m
+[14:08:31] [Async Chat Thread - #0/INFO]: <steelbreach> ok[m
+[14:09:18] [Async Chat Thread - #0/INFO]: <steelbreach> hai di yi ji need put ceiling leh[m
+[14:09:28] [Async Chat Thread - #0/INFO]: <hou> lol need meh[m
+[14:09:31] [Async Chat Thread - #0/INFO]: <steelbreach> lol here is where[m
+[14:09:33] [Async Chat Thread - #0/INFO]: <steelbreach> no need meh[m
+[14:09:39] [Async Chat Thread - #0/INFO]: <hou> u go see[m
+[14:10:07] [Async Chat Thread - #0/INFO]: <steelbreach> this to where oh[m
+[14:10:10] [Async Chat Thread - #0/INFO]: <steelbreach> i dunno de?[m
+[14:10:22] [Async Chat Thread - #0/INFO]: <hou> south less[m
+[14:10:39] [Async Chat Thread - #0/INFO]: <hou> go ice mountain[m
+[14:10:40] [Async Chat Thread - #0/INFO]: <steelbreach> version angle?[m
+[14:10:45] [Async Chat Thread - #0/INFO]: <hou> haha[m
+[14:10:51] [Async Chat Thread - #0/INFO]: <hou> u can go visit[m
+[14:11:56] [Async Chat Thread - #1/INFO]: <steelbreach> ...[m
+[14:12:10] [Async Chat Thread - #1/INFO]: <hou> nice leh suddenly got many ice[m
+[14:12:17] [Async Chat Thread - #1/INFO]: <steelbreach> why dulin heart?[m
+[14:12:23] [Async Chat Thread - #1/INFO]: <hou> becuz genshin[m
+[14:12:30] [Async Chat Thread - #1/INFO]: <steelbreach> lol[m
+[14:12:33] [Async Chat Thread - #1/INFO]: <hou> genshin ice mountain got dulin heart[m
+[14:12:59] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 0.2682290988712559
+[14:12:59] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 0.28557277668951286
+[14:12:59] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 0.2635096439737019
+[14:13:09] [Async Chat Thread - #1/INFO]: <hou> carpet cannot go[m
+[14:13:21] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 1.0188656831277925
+[14:13:24] [Async Chat Thread - #1/INFO]: <steelbreach> en[m
+[14:13:43] [Async Chat Thread - #1/INFO]: <steelbreach> lol[m
+[14:13:48] [Async Chat Thread - #1/INFO]: <steelbreach> my ice shulker forgot take[m
+[14:13:53] [Async Chat Thread - #1/INFO]: <hou> lol[m
+[14:14:03] [Async Chat Thread - #1/INFO]: <hou> go take ba[m
+[14:14:12] [Async Chat Thread - #1/INFO]: <steelbreach> i still got some[m
+[14:14:46] [Async Chat Thread - #1/INFO]: <steelbreach> lol why so far[m
+[14:14:56] [Async Chat Thread - #1/INFO]: <hou> becuz lead to 8000 block[m
+[14:15:07] [Async Chat Thread - #1/INFO]: <steelbreach> ..where[m
+[14:15:14] [Async Chat Thread - #1/INFO]: <hou> ice spikes[m
+[14:15:27] [Async Chat Thread - #1/INFO]: <steelbreach> err[m
+[14:15:31] [Async Chat Thread - #1/INFO]: <steelbreach> ok le reach[m
+[14:16:35] [Async Chat Thread - #2/INFO]: <hou> why here[m
+[14:16:49] [Async Chat Thread - #2/INFO]: <steelbreach> temporary[m
+[14:17:08] [Async Chat Thread - #2/INFO]: <hou> lol[m
+[14:17:58] [Async Chat Thread - #2/INFO]: <hou> west far[m
+[14:18:05] [Async Chat Thread - #2/INFO]: <steelbreach> done le[m
+[14:18:10] [Async Chat Thread - #2/INFO]: <hou> sui[m
+[14:18:36] [Async Chat Thread - #2/INFO]: <steelbreach> lol[m
+[14:18:50] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.7364078307267619
+[14:18:50] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 1.790146292112695
+[14:18:50] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 2.928135914362315
+[14:18:51] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.663056525898071
+[14:18:51] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.6269304148323158
+[14:18:51] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 1.7683218085238082
+[14:18:58] [Async Chat Thread - #2/INFO]: <steelbreach> my cat shi ma[m
+[14:19:03] [Async Chat Thread - #2/INFO]: <steelbreach> always ka cau[m
+[14:19:04] [Async Chat Thread - #2/INFO]: <hou> why cat[m
+[14:19:06] [Async Chat Thread - #2/INFO]: <hou> no la[m
+[14:19:09] [Async Chat Thread - #2/INFO]: <steelbreach> ur?[m
+[14:19:18] [Async Chat Thread - #2/INFO]: <hou> where go now[m
+[14:19:23] [Async Chat Thread - #2/INFO]: <steelbreach> finish le bushi[m
+[14:19:26] [Async Chat Thread - #2/INFO]: <hou> ya[m
+[14:19:27] [Async Chat Thread - #2/INFO]: <steelbreach> make wood stone?[m
+[14:19:31] [Async Chat Thread - #2/INFO]: <steelbreach> light[m
+[14:19:40] [Async Chat Thread - #2/INFO]: <hou> go craft wood[m
+[14:19:43] [Async Chat Thread - #2/INFO]: <steelbreach> gogo[m
+[14:20:19] [Async Chat Thread - #2/INFO]: <hou> i think wood and light must[m
+[14:20:29] [Async Chat Thread - #2/INFO]: <hou> other cincai[m
+[14:20:30] [Async Chat Thread - #2/INFO]: <steelbreach> that one o hard leh[m
+[14:20:32] [Async Chat Thread - #2/INFO]: <steelbreach> light[m
+[14:20:37] [Async Chat Thread - #2/INFO]: <steelbreach> lantern slow..[m
+[14:20:46] [Async Chat Thread - #2/INFO]: <hou> no la[m
+[14:20:50] [Async Chat Thread - #2/INFO]: <hou> just torch[m
+[14:20:53] [Async Chat Thread - #2/INFO]: <steelbreach> i tried to afk there but very slow[m
+[14:20:57] [Async Chat Thread - #2/INFO]: <steelbreach> lol[m
+[14:21:00] [Async Chat Thread - #2/INFO]: <steelbreach> lantern la[m
+[14:21:08] [Async Chat Thread - #2/INFO]: <hou> lantern too slow[m
+[14:21:19] [Async Chat Thread - #2/INFO]: <steelbreach> no other solutions?[m
+[14:21:23] [Async Chat Thread - #2/INFO]: <hou> err[m
+[14:21:37] [Async Chat Thread - #2/INFO]: <hou> other light souce lo[m
+[14:21:38] [Async Chat Thread - #2/INFO]: <steelbreach> make a high efficient lantern farm[m
+[14:21:47] [Async Chat Thread - #2/INFO]: <steelbreach> upgrade[m
+[14:21:50] [Async Chat Thread - #2/INFO]: <hou> tat harder[m
+[14:21:52] [Async Chat Thread - #2/INFO]: <hou> ==[m
+[14:22:25] [Async Chat Thread - #2/INFO]: <hou> ohh[m
+[14:22:28] [Async Chat Thread - #2/INFO]: <steelbreach> maybe can use torch first la[m
+[14:22:33] [Async Chat Thread - #2/INFO]: <steelbreach> later can upgrade[m
+[14:22:34] [Async Chat Thread - #2/INFO]: <hou> can use glowstone[m
+[14:22:43] [Async Chat Thread - #2/INFO]: <hou> golden highway[m
+[14:22:50] [Async Chat Thread - #2/INFO]: <steelbreach> how get?[m
+[14:23:00] [Async Chat Thread - #2/INFO]: <hou> witch farm[m
+[14:23:02] [Async Chat Thread - #2/INFO]: <steelbreach> lol[m
+[14:23:13] [Async Chat Thread - #2/INFO]: <steelbreach> that one also not very efficient haha[m
+[14:23:25] [Async Chat Thread - #2/INFO]: <hou> tat more easy[m
+[14:23:26] [Async Chat Thread - #2/INFO]: <steelbreach> need afk la[m
+[14:23:31] [Async Chat Thread - #2/INFO]: <hou> but torch best[m
+[14:23:35] [Async Chat Thread - #2/INFO]: <steelbreach> ya easier than lantern[m
+[14:24:12] [Async Chat Thread - #2/INFO]: <steelbreach> and shulker farm la[m
+[14:24:19] [Async Chat Thread - #2/INFO]: <hou> tgg[m
+[14:24:31] [Async Chat Thread - #2/INFO]: <steelbreach> shit..[m
+[14:24:36] [Async Chat Thread - #2/INFO]: <steelbreach> hou come tree farm[m
+[14:24:40] [Async Chat Thread - #2/INFO]: <steelbreach> i accident broke sth[m
+[14:24:43] [Async Chat Thread - #2/INFO]: <steelbreach> i dunno what i broke[m
+[14:25:20] [Async Chat Thread - #2/INFO]: <steelbreach> or cannot push le[m
+[14:25:22] [Async Chat Thread - #2/INFO]: <steelbreach> piston[m
+[14:25:48] [Async Chat Thread - #2/INFO]: <steelbreach> try[m
+[14:26:16] [Async Chat Thread - #2/INFO]: <steelbreach> why a[m
+[14:26:23] [Async Chat Thread - #2/INFO]: <steelbreach> i broke sth?[m
+[14:26:27] [Async Chat Thread - #2/INFO]: <hou> dunno[m
+[14:26:34] [Async Chat Thread - #2/INFO]: <steelbreach> err[m
+[14:26:38] [Async Chat Thread - #2/INFO]: <steelbreach> that branch[m
+[14:26:42] [Async Chat Thread - #2/INFO]: <steelbreach> should it be there[m
+[14:26:48] [Async Chat Thread - #2/INFO]: <steelbreach> on top of the glass[m
+[14:27:33] [Async Chat Thread - #2/INFO]: <hou> seem ok leh[m
+[14:27:50] [Async Chat Thread - #2/INFO]: <steelbreach> duuno leh[m
+[14:27:57] [Async Chat Thread - #2/INFO]: <steelbreach> i think I didnt break anything la[m
+[14:29:02] [Async Chat Thread - #3/INFO]: <hou> juz now ok ahh[m
+[14:29:05] [Async Chat Thread - #3/INFO]: <steelbreach> ya[m
+[14:29:58] [Async Chat Thread - #3/INFO]: <steelbreach> i broke sth shi ma[m
+[14:30:02] [Async Chat Thread - #3/INFO]: <steelbreach> wont push de[m
+[14:30:22] [Async Chat Thread - #3/INFO]: <hou> try sapiling[m
+[14:30:43] [Async Chat Thread - #3/INFO]: <steelbreach> eh[m
+[14:30:50] [Async Chat Thread - #3/INFO]: <steelbreach> this piston like this can push meh[m
+[14:31:00] [Async Chat Thread - #3/INFO]: <hou> can[m
+[14:31:13] [Async Chat Thread - #3/INFO]: <steelbreach> but it needs to power[m
+[14:31:30] [Async Chat Thread - #3/INFO]: <hou> got lever ma[m
+[14:31:49] [Async Chat Thread - #3/INFO]: <steelbreach> here[m
+[14:32:00] [Async Chat Thread - #3/INFO]: <steelbreach> this not powered[m
+[14:32:50] [Server thread/INFO]: Villager EntityVillager['Villager'/1046, l='ServerLevel[world]', x=99.29, y=67.00, z=-348.52] died, message: 'Villager was slain by Drowned'
+[14:33:05] [Server thread/INFO]: Villager EntityVillager['Villager'/1044, l='ServerLevel[world]', x=116.31, y=68.00, z=-342.69] died, message: 'Villager was slain by Zombie Villager'
+[14:33:20] [Async Chat Thread - #4/INFO]: <steelbreach> this one[m
+[14:33:23] [Async Chat Thread - #4/INFO]: <steelbreach> need power[m
+[14:33:31] [Async Chat Thread - #4/INFO]: <hou> where[m
+[14:33:31] [Server thread/INFO]: Villager EntityVillager['Villager'/1052, l='ServerLevel[world]', x=121.54, y=68.00, z=-353.24] died, message: 'Villager was slain by Zombie Villager'
+[14:33:39] [Async Chat Thread - #4/INFO]: <steelbreach> this piston[m
+[14:33:43] [Async Chat Thread - #4/INFO]: <hou> ya[m
+[14:33:56] [Async Chat Thread - #4/INFO]: <steelbreach> eh[m
+[14:33:58] [Async Chat Thread - #4/INFO]: <steelbreach> i know le[m
+[14:34:04] [Async Chat Thread - #4/INFO]: <hou> gogo[m
+[14:34:28] [Async Chat Thread - #4/INFO]: <steelbreach> hahah[m
+[14:35:41] [Async Chat Thread - #5/INFO]: <steelbreach> no la[m
+[14:35:50] [Async Chat Thread - #5/INFO]: <steelbreach> i think is redstone torch missing[m
+[14:35:57] [Async Chat Thread - #5/INFO]: <steelbreach> because i have that one in my hand[m
+[14:37:30] [Server thread/INFO]: steelbreach issued server command: /skins set Rudely_
+[14:37:35] [Server thread/INFO]: steelbreach issued server command: /skin set Rudely_
+[14:38:10] [Server thread/INFO]: steelbreach issued server command: /skin set Mozls
+[14:38:17] [Async Chat Thread - #6/INFO]: <hou> dunno[m
+[14:38:28] [Server thread/INFO]: steelbreach issued server command: /skin set Bartook
+[14:38:30] [Server thread/INFO]: steelbreach issued server command: /skin set Bartook
+[14:38:32] [Server thread/INFO]: steelbreach issued server command: /skin set Bartook
+[14:38:34] [Server thread/INFO]: steelbreach issued server command: /skin set Bartook
+[14:38:35] [Server thread/INFO]: steelbreach issued server command: /skin set Bartook
+[14:38:37] [Server thread/INFO]: steelbreach issued server command: /skin set Bartook
+[14:38:39] [Server thread/INFO]: steelbreach issued server command: /skin set Bartook
+[14:38:40] [Server thread/INFO]: steelbreach issued server command: /skin set Bartook
+[14:38:41] [Server thread/INFO]: steelbreach issued server command: /skin set Bartook
+[14:40:23] [Async Chat Thread - #7/INFO]: <hou> wa[m
+[14:40:28] [Async Chat Thread - #7/INFO]: <hou> ok le[m
+[14:40:32] [Async Chat Thread - #7/INFO]: <steelbreach> lol[m
+[14:40:36] [Async Chat Thread - #7/INFO]: <hou> why here[m
+[14:40:36] [Async Chat Thread - #7/INFO]: <steelbreach> here ah[m
+[14:41:25] [Async Chat Thread - #7/INFO]: <steelbreach> why ah[m
+[14:41:29] [Async Chat Thread - #7/INFO]: <hou> dunno[m
+[14:41:48] [Async Chat Thread - #7/INFO]: <steelbreach> and i need to step on it..[m
+[14:41:50] [Async Chat Thread - #7/INFO]: <hou> i remember the one design this is a genius[m
+[14:42:17] [Async Chat Thread - #7/INFO]: <steelbreach> eh got bug shi ma[m
+[14:42:27] [Async Chat Thread - #7/INFO]: <steelbreach> u see i put 1 wood[m
+[14:42:37] [Async Chat Thread - #7/INFO]: <steelbreach> why top got wood le[m
+[14:42:47] [Async Chat Thread - #7/INFO]: <hou> u see here[m
+[14:43:05] [Async Chat Thread - #7/INFO]: <steelbreach> ...[m
+[14:43:08] [Async Chat Thread - #7/INFO]: <hou> only can push 1 wood[m
+[14:43:13] [Async Chat Thread - #7/INFO]: <hou> u try 2 wood[m
+[14:43:37] [Async Chat Thread - #7/INFO]: <steelbreach> so no fix yet[m
+[14:43:46] [Async Chat Thread - #7/INFO]: <hou> ok ahh[m
+[14:43:53] [Async Chat Thread - #7/INFO]: <hou> seems ok[m
+[14:43:57] [Async Chat Thread - #7/INFO]: <hou> i plant u see[m
+[14:44:15] [Server thread/WARN]: steelbreach moved wrongly!
+[14:44:39] [Async Chat Thread - #7/INFO]: <hou> ok leh[m
+[14:44:48] [Async Chat Thread - #7/INFO]: <steelbreach> haha then good[m
+[14:44:54] [Async Chat Thread - #7/INFO]: <hou> good[m
+[14:45:29] [Async Chat Thread - #7/INFO]: <hou> ok no problem[m
+[14:45:30] [Async Chat Thread - #7/INFO]: <steelbreach> wa[m
+[14:45:35] [Async Chat Thread - #7/INFO]: <hou> gg[m
+[14:45:40] [Async Chat Thread - #7/INFO]: <steelbreach> good boy[m
+[14:45:45] [Async Chat Thread - #7/INFO]: <hou> kill[m
+[14:46:14] [Async Chat Thread - #7/INFO]: <steelbreach> here got a lot wood le[m
+[14:46:21] [Async Chat Thread - #7/INFO]: <steelbreach> 3*64[m
+[14:46:22] [Async Chat Thread - #7/INFO]: <hou> duper a lot[m
+[14:46:28] [Async Chat Thread - #7/INFO]: <steelbreach> lol[m
+[14:47:41] [Async Chat Thread - #8/INFO]: <steelbreach> i go wash plate[m
+[14:47:43] [Server thread/INFO]: steelbreach lost connection: Disconnected
+[14:47:43] [Server thread/INFO]: steelbreach left the game
+[15:01:07] [User Authenticator #4/INFO]: UUID of player saitama is eddc90bf-162d-39fa-8419-feecbb06ba81
+[15:01:08] [Server thread/INFO]: saitama[/60.50.200.237:23572] logged in with entity id 16575 at ([world]13.659042196484778, 61.5625, -325.0444185956805)
+[15:01:20] [Async Chat Thread - #9/INFO]: <hou> bom bom bakudan[m
+[15:01:22] [Async Chat Thread - #9/INFO]: <saitama> ola ola ola[m
+[15:02:28] [Async Chat Thread - #10/INFO]: <hou> u come highway[m
+[15:02:28] [Async Chat Thread - #10/INFO]: <saitama> MANA AWAK[m
+[15:02:36] [Async Chat Thread - #10/INFO]: <hou> northern highway[m
+[15:02:46] [Async Chat Thread - #10/INFO]: <hou> at the end of highway[m
+[15:06:01] [Async Chat Thread - #11/INFO]: <saitama> GUSHA[m
+[15:06:11] [Async Chat Thread - #11/INFO]: <hou> where gusha[m
+[15:06:28] [Async Chat Thread - #11/INFO]: <saitama> ????????[m
+[15:06:42] [Async Chat Thread - #11/INFO]: <hou> becuz now 1.18[m
+[15:06:50] [Async Chat Thread - #11/INFO]: <hou> man always gets longer[m
+[15:06:54] [Async Chat Thread - #11/INFO]: <saitama> ??????[m
+[15:07:01] [Async Chat Thread - #11/INFO]: <saitama> ????duping?[m
+[15:07:03] [Async Chat Thread - #11/INFO]: <hou> lol u at there ahh[m
+[15:07:12] [Async Chat Thread - #11/INFO]: <hou> now i at southern highway lo[m
+[15:07:16] [Async Chat Thread - #11/INFO]: <saitama> dragon king[m
+[15:07:26] [Async Chat Thread - #11/INFO]: <saitama> dragon king??[m
+[15:07:31] [Async Chat Thread - #11/INFO]: <hou> ohh[m
+[15:07:39] [Async Chat Thread - #11/INFO]: <hou> i at js village there[m
+[15:07:42] [Async Chat Thread - #11/INFO]: <saitama> gg[m
+[15:07:46] [Async Chat Thread - #11/INFO]: <hou> then go straight[m
+[15:07:56] [Async Chat Thread - #11/INFO]: <hou> to dulin snow mountain[m
+[15:08:43] [Async Chat Thread - #11/INFO]: <saitama> black rabbit[m
+[15:08:57] [Async Chat Thread - #11/INFO]: <hou> u at westhern highway[m
+[15:09:01] [Async Chat Thread - #11/INFO]: <hou> tat long[m
+[15:09:05] [Async Chat Thread - #11/INFO]: <hou> u try go[m
+[15:09:47] [Async Chat Thread - #11/INFO]: <saitama> mt ganyu[m
+[15:09:55] [Async Chat Thread - #11/INFO]: <hou> hehe[m
+[15:10:01] [Async Chat Thread - #11/INFO]: <hou> ganyu good[m
+[15:11:01] [Server thread/INFO]: saitama lost connection: Disconnected
+[15:11:01] [Server thread/INFO]: saitama left the game
+[15:24:30] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.4184792422378223
+[15:24:30] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.3443555528018436
+[15:31:27] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! -40.48255590340756,0.0,0.35274395426595007
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 149.4817346598723,0.0,-0.45784246255324135
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 147.49791244103625,0.0,-0.4581701960823459
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 145.5142463389896,0.0,-0.45231506714968717
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 143.53080690646578,0.0,-0.43994647657551056
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 141.5476664665428,0.0,-0.42075263794874473
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 139.56489940878726,0.0,-0.39443642392761546
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 137.58258189087957,0.0,-0.36071507957780113
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 135.6007907452692,0.0,-0.3193236881545367
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 133.61960478070688,0.0,-0.270007299962959
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 131.63910286144704,0.0,-0.21252821991948778
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 129.65936446120588,0.0,-0.14666190084804498
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 127.680468481231,0.0,-0.07220038066674661
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 125.70249500392885,0.0,0.011055504769235114
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 123.72552390452068,0.0,0.10329260117737249
+[15:31:32] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 121.74963475339587,0.0,0.204685704367904
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 119.7749066135923,0.0,0.315397826388196
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 117.80141772089871,0.0,0.4355804703937096
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 115.82924553843941,0.0,0.56537387799521
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 113.85846763410655,0.0,0.7049109439137276
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 111.88894416248957,0.0,0.8536460777136163
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 109.92034724708788,0.0,0.8678997135691873
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 107.95221885822127,0.0,0.8678997135691873
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 105.98418975114936,0.0,0.8678997135691873
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 104.01597404704034,0.0,0.8678997135691873
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 102.04736339332942,0.0,0.8678997135691873
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 100.07822230630273,0.0,0.8678997135691873
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 98.10848282824418,0.0,0.8678997135691873
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 96.13813931006513,0.0,0.8675890855927548
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 94.16724374904197,0.0,0.8654713595057792
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 92.19590132038167,0.0,0.8601093088576484
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 90.2242657671876,0.0,0.8501293921283803
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 88.25243404274329,0.0,0.8349126489117182
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 86.28041111727651,0.0,0.814556217442302
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 84.30820133634472,0.0,0.789159092056714
+[15:31:33] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 82.33580895859433,0.0,0.7588182872066902
+[15:31:34] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 80.36323867903945,0.0,0.7236250781920006
+[15:31:34] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 78.39049458097878,0.0,0.6836727136729408
+[15:31:34] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 76.41758119131094,0.0,0.6390487789392623
+[15:31:34] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 74.44450242113078,0.0,0.5898429069070339
+[15:31:34] [Server thread/WARN]: Boat (vehicle of hou) moved too quickly! 72.47126209958606,0.0,0.5361429369043904
+[15:32:13] [Server thread/INFO]: hou lost connection: Disconnected
+[15:32:13] [Server thread/INFO]: hou left the game
+[15:32:16] [User Authenticator #5/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
+[15:32:16] [Server thread/INFO]: hou[/1.32.68.120:64558] logged in with entity id 23930 at ([world_nether]-864.6265928216278, 129.5625, -30.849398518397926)
+[15:37:38] [User Authenticator #6/INFO]: UUID of player steelbreach is 2abedc5b-1a4a-3311-9699-ce7c82384a73
+[15:37:39] [Server thread/INFO]: steelbreach[/61.6.122.125:61611] logged in with entity id 24647 at ([world]119.9839797493506, 64.0, -392.2455889396147)
+[15:37:52] [Async Chat Thread - #12/INFO]: <steelbreach> hou[m
+[15:37:54] [Async Chat Thread - #12/INFO]: <hou> ?[m
+[15:37:55] [Async Chat Thread - #12/INFO]: <steelbreach> hohoho[m
+[15:37:59] [Async Chat Thread - #12/INFO]: <steelbreach> merry christmas[m
+[15:38:07] [Server thread/INFO]: steelbreach issued server command: /skin set steelbreach
+[15:38:08] [Async Chat Thread - #12/INFO]: <hou> merry christmas[m
+[15:38:34] [Async Chat Thread - #12/INFO]: <steelbreach> u got yu guo flood ma kl[m
+[15:38:43] [Async Chat Thread - #12/INFO]: <hou> no[m
+[15:38:53] [Async Chat Thread - #12/INFO]: <steelbreach> kl non stop raining now 2nd day le..[m
+[15:39:09] [Async Chat Thread - #12/INFO]: <hou> watch out your car[m
+[15:39:16] [Async Chat Thread - #12/INFO]: <steelbreach> yalo[m
+[15:39:32] [Async Chat Thread - #12/INFO]: <steelbreach> i see forecast[m
+[15:39:36] [Async Chat Thread - #12/INFO]: <steelbreach> tmr 100% rain..[m
+[15:39:40] [Async Chat Thread - #12/INFO]: <hou> gg[m
+[15:39:52] [Async Chat Thread - #12/INFO]: <steelbreach> but very cold haha[m
+[15:39:56] [Async Chat Thread - #12/INFO]: <steelbreach> no need aircond[m
+[15:40:00] [Async Chat Thread - #12/INFO]: <hou> gg[m
+[15:40:21] [Async Chat Thread - #12/INFO]: <steelbreach> u putting wood?[m
+[15:40:27] [Async Chat Thread - #12/INFO]: <hou> habis le[m
+[15:40:36] [Async Chat Thread - #12/INFO]: <steelbreach> i diging[m
+[15:40:49] [Server thread/INFO]: steelbreach issued server command: /skin set TheMqrs
+[15:40:55] [Async Chat Thread - #12/INFO]: <steelbreach> come take[m
+[15:41:06] [Async Chat Thread - #12/INFO]: <steelbreach> see my new skin[m
+[15:41:08] [Async Chat Thread - #12/INFO]: <hou> u dig wat[m
+[15:41:11] [Async Chat Thread - #12/INFO]: <steelbreach> wood[m
+[15:43:23] [Async Chat Thread - #13/INFO]: <hou> i think ok le?[m
+[15:43:27] [Async Chat Thread - #13/INFO]: <steelbreach> ?[m
+[15:43:41] [Async Chat Thread - #13/INFO]: <hou> i put all wood le[m
+[15:43:47] [Async Chat Thread - #13/INFO]: <hou> now can row boat[m
+[15:43:47] [Async Chat Thread - #13/INFO]: <steelbreach> so fast?[m
+[15:43:50] [Async Chat Thread - #13/INFO]: <hou> ya[m
+[15:43:53] [Async Chat Thread - #13/INFO]: <steelbreach> wa[m
+[15:44:07] [Async Chat Thread - #13/INFO]: <steelbreach> spiderman[m
+[15:44:08] [Async Chat Thread - #13/INFO]: <hou> and i made some improvement[m
+[15:44:14] [Async Chat Thread - #13/INFO]: <steelbreach> wa[m
+[15:44:16] [Async Chat Thread - #13/INFO]: <steelbreach> wa[m
+[15:44:22] [Async Chat Thread - #13/INFO]: <hou> auto slow down[m
+[15:44:22] [Async Chat Thread - #13/INFO]: <steelbreach> 666 leh[m
+[15:44:23] [Async Chat Thread - #13/INFO]: <steelbreach> nice[m
+[15:44:40] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.4297501783549933
+[15:44:40] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 2.330240004820439
+[15:44:43] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.7079018467350693
+[15:44:43] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 1.6223462582605634
+[15:44:43] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.7017666004333591
+[15:44:43] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.6784392016498941
+[15:44:43] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.6992778580027448
+[15:44:43] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.644422370752693
+[15:44:43] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.6644231227928685
+[15:44:43] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.6840021752589109
+[15:44:43] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.6434053842254457
+[15:44:48] [Async Chat Thread - #13/INFO]: <steelbreach> lol ur cat kacau la[m
+[15:44:55] [Async Chat Thread - #13/INFO]: <steelbreach> 666[m
+[15:44:55] [Async Chat Thread - #13/INFO]: <hou> not mine[m
+[15:44:55] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.32738609124623963
+[15:44:56] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.2677969999150491
+[15:44:56] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.6439102172691946
+[15:45:00] [Async Chat Thread - #13/INFO]: <steelbreach> mine meh?[m
+[15:45:06] [Async Chat Thread - #13/INFO]: <hou> ya[m
+[15:45:11] [Server thread/WARN]: Boat (vehicle of hou) moved wrongly! 0.7448033013556596
+[15:45:25] [Async Chat Thread - #13/INFO]: <hou> gogo[m
+[15:45:36] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 0.6390091898456376
+[15:45:36] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 0.4191977994469198
+[15:45:42] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 1.0154655896338909
+[15:45:42] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 1.031552614065049
+[15:45:42] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 0.8404995240892958
+[15:45:42] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 0.6830167618405767
+[15:45:53] [Async Chat Thread - #13/INFO]: <hou> very fast[m
+[15:46:25] [Async Chat Thread - #13/INFO]: <steelbreach> ok leh[m
+[15:46:45] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 0.8994213268143199
+[15:46:45] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 0.7272510086234831
+[15:46:45] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 0.7313603487519345
+[15:46:45] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 0.6612382400673482
+[15:46:45] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 0.5990531297993869
+[15:47:06] [Async Chat Thread - #13/INFO]: <hou> ok de[m
+[15:47:39] [Async Chat Thread - #13/INFO]: <hou> if want make turn just dun press w[m
+[15:47:44] [Async Chat Thread - #13/INFO]: <hou> stop at middle[m
+[15:47:47] [Async Chat Thread - #13/INFO]: <steelbreach> drift meh haha[m
+[15:47:51] [Async Chat Thread - #13/INFO]: <hou> can de[m
+[15:48:09] [Async Chat Thread - #13/INFO]: <steelbreach> wa[m
+[15:48:13] [Async Chat Thread - #13/INFO]: <steelbreach> need skill leh haha[m
+[15:48:18] [Async Chat Thread - #13/INFO]: <hou> crash[m
+[15:48:26] [Async Chat Thread - #13/INFO]: <hou> no signal[m
+[15:48:32] [Async Chat Thread - #13/INFO]: <steelbreach> need red lights[m
+[15:48:36] [Async Chat Thread - #13/INFO]: <hou> gg[m
+[15:48:43] [Async Chat Thread - #13/INFO]: <hou> why u spiderman[m
+[15:48:47] [Async Chat Thread - #13/INFO]: <steelbreach> haha[m
+[15:48:51] [Async Chat Thread - #13/INFO]: <steelbreach> nice leh[m
+[15:48:57] [Async Chat Thread - #13/INFO]: <steelbreach> biu biu biu[m
+[15:48:58] [Async Chat Thread - #13/INFO]: <hou> lol[m
+[15:49:21] [Async Chat Thread - #13/INFO]: <hou> gg jungle no wood[m
+[15:49:23] [Async Chat Thread - #13/INFO]: <hou> i put[m
+[15:49:52] [Async Chat Thread - #13/INFO]: <steelbreach> ice also[m
+[15:49:57] [Async Chat Thread - #13/INFO]: <steelbreach> abit[m
+[15:49:58] [Async Chat Thread - #13/INFO]: <hou> no ice meh[m
+[15:50:10] [Async Chat Thread - #13/INFO]: <hou> ya meh[m
+[15:50:12] [Async Chat Thread - #13/INFO]: <steelbreach> just a bit la[m
+[15:50:16] [Async Chat Thread - #13/INFO]: <hou> lol[m
+[15:50:22] [Async Chat Thread - #13/INFO]: <hou> i still got ice[m
+[15:50:27] [Async Chat Thread - #13/INFO]: <hou> many ice[m
+[15:50:34] [Async Chat Thread - #13/INFO]: <steelbreach> can la[m
+[16:03:07] [Server thread/INFO]: hou lost connection: Disconnected
+[16:03:07] [Server thread/INFO]: hou left the game
+[16:03:10] [User Authenticator #7/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
+[16:03:10] [Server thread/INFO]: hou[/1.32.68.120:51506] logged in with entity id 31995 at ([world_nether]461.2390037007975, 129.5, -28.79852494060063)
+[16:18:36] [Async Chat Thread - #14/INFO]: <steelbreach> no play genshin?[m
+[16:18:43] [Async Chat Thread - #14/INFO]: <hou> no[m
+[16:18:49] [Async Chat Thread - #14/INFO]: <steelbreach> why wait update ah?[m
+[16:18:51] [Async Chat Thread - #14/INFO]: <hou> i play keqing[m
+[16:19:00] [Async Chat Thread - #14/INFO]: <steelbreach> lol u not ganyu meh[m
+[16:19:15] [Async Chat Thread - #14/INFO]: <hou> ganyu dun hav[m
+[16:19:23] [Async Chat Thread - #14/INFO]: <steelbreach> ur skin[m
+[16:19:28] [Async Chat Thread - #14/INFO]: <hou> gg[m
+[16:22:23] [Server thread/INFO]: steelbreach lost connection: Disconnected
+[16:22:23] [Server thread/INFO]: steelbreach left the game
+[16:22:23] [Server thread/INFO]: hou lost connection: Disconnected
+[16:22:23] [Server thread/INFO]: hou left the game
+[16:22:32] [User Authenticator #8/INFO]: UUID of player hou is 74844237-bae2-36c3-9f9c-1c2a280ba6e7
+[16:22:32] [Server thread/INFO]: hou[/1.32.68.120:7001] logged in with entity id 39001 at ([world_nether]-562.9361176487369, 128.0, -25.213839038903785)
+[16:22:34] [User Authenticator #9/INFO]: UUID of player steelbreach is 2abedc5b-1a4a-3311-9699-ce7c82384a73
+[16:22:34] [Server thread/INFO]: steelbreach[/61.6.122.125:62219] logged in with entity id 39115 at ([world]-129.0675020736636, 57.0, -278.2266850769623)
+[16:22:42] [Async Chat Thread - #15/INFO]: <steelbreach> i dunno what happen[m
+[16:22:45] [Async Chat Thread - #15/INFO]: <steelbreach> but we both dc[m
+[16:22:53] [Async Chat Thread - #15/INFO]: <hou> dunno[m
+[16:24:59] [Async Chat Thread - #16/INFO]: <steelbreach> concrete havent fix ah haha[m
+[16:25:00] [Async Chat Thread - #16/INFO]: <hou> ok i add some light to highway[m
+[16:25:04] [Async Chat Thread - #16/INFO]: <hou> gg concrete[m
+[16:25:12] [Async Chat Thread - #16/INFO]: <steelbreach> lol[m
+[16:26:01] [Async Chat Thread - #16/INFO]: <hou> u want concrete ahh[m
+[16:27:23] [Async Chat Thread - #17/INFO]: <steelbreach> err[m
+[16:27:29] [Async Chat Thread - #17/INFO]: <steelbreach> white to build walls?[m
+[16:27:42] [Async Chat Thread - #17/INFO]: <hou> tat later ba[m
+[16:27:45] [Async Chat Thread - #17/INFO]: <hou> i need rest[m
+[16:27:49] [Async Chat Thread - #17/INFO]: <steelbreach> haha can[m
+[16:28:13] [Async Chat Thread - #17/INFO]: <hou> haha u see highway[m
+[16:28:33] [Async Chat Thread - #17/INFO]: <hou> like real one in malaysia[m
+[16:28:36] [Async Chat Thread - #17/INFO]: <steelbreach> lol[m
+[16:28:43] [Async Chat Thread - #17/INFO]: <steelbreach> good[m
+[16:28:56] [Async Chat Thread - #17/INFO]: <hou> some got light some not[m
+[16:29:00] [Async Chat Thread - #17/INFO]: <steelbreach> lol[m
+[16:29:06] [Async Chat Thread - #17/INFO]: <steelbreach> like malaysia[m
+[16:29:10] [Async Chat Thread - #17/INFO]: <steelbreach> also sesat haha[m
+[16:29:12] [Async Chat Thread - #17/INFO]: <hou> u go in front[m
+[16:29:22] [Async Chat Thread - #17/INFO]: <steelbreach> ?[m
+[16:29:31] [Async Chat Thread - #17/INFO]: <hou> oso like this[m
+[16:30:10] [Async Chat Thread - #17/INFO]: <steelbreach> ...[m
+[16:30:14] [Async Chat Thread - #17/INFO]: <hou> why zombie[m
+[16:30:49] [Server thread/WARN]: Boat (vehicle of steelbreach) moved wrongly! 1.414794921875
+[16:34:43] [Async Chat Thread - #18/INFO]: <hou> i rest le[m
+[16:34:45] [Async Chat Thread - #18/INFO]: <hou> bye[m
+[16:34:46] [Async Chat Thread - #18/INFO]: <steelbreach> k bye[m
+[16:34:48] [Server thread/INFO]: hou lost connection: Disconnected
+[16:34:48] [Server thread/INFO]: hou left the game
+[16:34:48] [Server thread/INFO]: steelbreach lost connection: Disconnected
+[16:34:48] [Server thread/INFO]: steelbreach left the game
+[17:09:17] [Server thread/INFO]: Stopping the server
+[17:09:17] [Server thread/INFO]: Stopping server
+[17:09:17] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.1.10
+[17:09:17] [Server thread/INFO]: Saving players
+[17:09:17] [Server thread/INFO]: Saving worlds
+[17:09:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:09:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:09:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:09:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:09:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:09:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:09:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:09:18] [Server thread/INFO]: Thread Query Listener stopped

@@ -18,9 +18,9 @@
 # (!) IF YOU USE BUNGEE, Check & set on every Spigot server spigot.yml -> bungeecord: true.  (!)
 # (!) & Install Skinsrestorer.jar on ALL SERVERS!!! (BOTH Spigot & Bungeecord).              (!)
 
-  ##########
-  # Basics #
-  ##########
+##########
+# Basics #
+##########
 
 # If true, players can change skins without permission.
 # see https://github.com/SkinsRestorer/SkinsRestorerX/wiki/cmds-&-perms for perms.
@@ -30,7 +30,8 @@ SkinWithoutPerm: true
 # SkinErrorCooldown when a error or invalid url occurs.
 # Can be bypassed with 'skinsrestorer.bypasscooldown'.
 SkinChangeCooldown: 30
-SkinErrorCooldown: 5
+SkinErrorCooldown:
+  5
 
   #################
   # Customization #
@@ -91,11 +92,11 @@ MySQL:
   Enabled: false
   Host: localhost
   Port: 3306
-  Database: db
-  Username: root
-  Password: pass
-  SkinTable: 'Skins'
-  PlayerTable: 'Players'
+  Database: epiz_30617722_skinsrestorer
+  Username: epiz_30617722
+  Password: 4EeJXV6RoeL7qfC
+  SkinTable: "Skins"
+  PlayerTable: "Players"
   ConnectionOptions: verifyServerCertificate=false&useSSL=false&serverTimezone=UTC
 
 # Stop the process of setting a skin if the LoginEvent was canceled by an AntiBot plugin.
@@ -105,14 +106,14 @@ NoSkinIfLoginCanceled: true
 RestrictSkinUrls:
   Enabled: false
   List:
-  - https://i.imgur.com
-  - http://i.imgur.com
-  - https://storage.googleapis.com
-  - http://storage.googleapis.com
-  - https://cdn.discordapp.com
-  - http://cdn.discordapp.com
-  - https://textures.minecraft.net
-  - http://textures.minecraft.net
+    - https://i.imgur.com
+    - http://i.imgur.com
+    - https://storage.googleapis.com
+    - http://storage.googleapis.com
+    - https://cdn.discordapp.com
+    - http://cdn.discordapp.com
+    - https://textures.minecraft.net
+    - http://textures.minecraft.net
 
   #################
   # Compatibility #
@@ -133,7 +134,8 @@ DismountPlayerOnSkinUpdate: true
 RemountPlayerOnSkinUpdate: true
 
 # Dismounts all passengers mounting a player (such as plugins that let you ride another player), preventing those players from becoming desynced.
-DismountPassengersOnSkinUpdate: false
+DismountPassengersOnSkinUpdate:
+  false
 
   ###############
   # Danger Zone #
@@ -156,14 +158,12 @@ Updater:
 # To block all types of automatic updates (which can risk keeping a exploit):
 # Create a file called 'noupdate.txt' in the plugin directory (./plugins/SkinsRestorer/ )
 
-  ################
-  # DEV's corner #
-  ################
+################
+# DEV's corner #
+################
 
 # Enable to start receiving debug messages about api requests & more.
 Debug: false
-
-
 # End #
 
 # Useful tools:
