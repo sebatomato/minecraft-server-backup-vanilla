@@ -1,13 +1,13 @@
 {
-  "minecraft:recipes/redstone/lever": {
-    "criteria": {
-      "has_cobblestone": "2021-05-14 21:32:08 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2021-05-14 21:32:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2021-05-14 21:32:08 +0800"
     },
     "done": true
   },
@@ -113,12 +113,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/birch_button": {
-    "criteria": {
-      "has_planks": "2021-05-14 21:32:08 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2021-05-14 21:32:08 +0800"
@@ -128,6 +122,12 @@
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2021-05-14 21:32:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2021-05-14 21:32:08 +0800"
     },
     "done": true
   },
@@ -185,15 +185,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cake": {
-    "criteria": {
-      "has_egg": "2021-05-14 21:32:08 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2021-05-14 21:32:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2021-05-14 21:32:08 +0800"
     },
     "done": true
   },
@@ -239,15 +239,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_banner": {
-    "criteria": {
-      "has_brown_wool": "2021-05-14 21:32:08 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/sea_lantern": {
     "criteria": {
       "has_prismarine_crystals": "2021-05-14 21:32:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2021-05-14 21:32:08 +0800"
     },
     "done": true
   },
@@ -317,12 +317,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_chestplate": {
-    "criteria": {
-      "has_iron_ingot": "2021-05-14 21:32:08 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2021-05-14 21:32:08 +0800"
@@ -330,6 +324,12 @@
     "done": true
   },
   "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2021-05-14 21:32:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2021-05-14 21:32:08 +0800"
     },
@@ -377,15 +377,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2021-05-14 21:32:08 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/smooth_stone_slab": {
     "criteria": {
       "has_smooth_stone": "2021-05-14 21:32:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2021-05-14 21:32:08 +0800"
     },
     "done": true
   },
@@ -449,21 +449,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/chest_minecart": {
-    "criteria": {
-      "has_minecart": "2021-05-14 21:32:08 +0800"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:cold_ocean": "2021-11-28 09:26:37 +0800",
-      "minecraft:forest": "2021-05-14 21:32:08 +0800",
-      "minecraft:mountains": "2021-11-28 09:25:27 +0800",
-      "minecraft:desert": "2021-05-14 21:33:37 +0800",
+      "minecraft:windswept_hills": "2021-11-28 09:25:27 +0800",
       "minecraft:beach": "2021-11-28 09:21:47 +0800",
       "minecraft:river": "2021-05-14 21:35:25 +0800",
-      "minecraft:stone_shore": "2021-11-28 09:28:50 +0800",
+      "minecraft:stony_shore": "2021-11-28 09:28:50 +0800",
+      "minecraft:cold_ocean": "2021-11-28 09:26:37 +0800",
+      "minecraft:forest": "2021-05-14 21:32:08 +0800",
+      "minecraft:desert": "2021-05-14 21:33:37 +0800",
       "minecraft:plains": "2021-05-14 21:32:34 +0800"
     },
     "done": false
@@ -471,6 +465,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2021-05-14 21:32:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2021-05-14 21:32:08 +0800"
     },
     "done": true
   },
@@ -516,9 +516,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cobblestone_wall": {
+  "minecraft:recipes/decorations/barrel": {
     "criteria": {
-      "has_cobblestone": "2021-05-14 21:32:08 +0800"
+      "has_planks": "2021-05-14 21:32:08 +0800"
     },
     "done": true
   },
@@ -528,9 +528,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/barrel": {
+  "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
-      "has_planks": "2021-05-14 21:32:08 +0800"
+      "has_cobblestone": "2021-05-14 21:32:08 +0800"
     },
     "done": true
   },
@@ -594,15 +594,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2021-05-14 21:32:08 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2021-05-14 21:32:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2021-05-14 21:32:08 +0800"
     },
     "done": true
   },
@@ -630,15 +630,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/clock": {
-    "criteria": {
-      "has_redstone": "2021-05-14 21:32:08 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2021-05-14 21:32:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2021-05-14 21:32:08 +0800"
     },
     "done": true
   },
@@ -660,15 +660,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_granite": {
-    "criteria": {
-      "has_granite": "2021-11-28 09:21:11 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2021-05-14 21:32:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2021-11-28 09:21:11 +0800"
     },
     "done": true
   },
@@ -804,5 +804,5 @@
     },
     "done": true
   },
-  "DataVersion": 2730
+  "DataVersion": 2975
 }
