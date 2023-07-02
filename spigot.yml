@@ -63,6 +63,7 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    hopper-can-load-chunks: false
     seed-nether: 30084232
     below-zero-generation-in-existing-chunks: true
     simulation-distance: default
@@ -102,6 +103,7 @@ world-settings:
       item: 2.5
       exp: 3.0
     entity-tracking-range:
+      display: 128
       players: 48
       animals: 48
       monsters: 48
@@ -118,6 +120,9 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     growth:
+      twistingvines-modifier: 100
+      weepingvines-modifier: 100
+      cavevines-modifier: 100
       cactus-modifier: 100
       cane-modifier: 100
       melon-modifier: 100
