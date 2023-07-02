@@ -1,233 +1,450 @@
-[11:33:21] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:33:22] [ServerMain/INFO]: Loaded 7 recipes
-[11:33:22] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[11:33:22] [Server thread/INFO]: Loading properties
-[11:33:22] [Server thread/INFO]: This server is running CraftBukkit version 3813-Spigot-c62f4bd-c432e43 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
-[11:33:22] [Server thread/INFO]: Debug logging is disabled
-[11:33:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:33:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:33:22] [Server thread/INFO]: Default game type: SURVIVAL
-[11:33:22] [Server thread/INFO]: Generating keypair
-[11:33:22] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[11:33:22] [Server thread/INFO]: Using default channel type
-[11:33:23] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
-[11:33:23] [Server thread/INFO]: [dynmap] Loading dynmap v3.4-beta-3-774
-[11:33:23] [Server thread/INFO]: [dynmap] version=3813-Spigot-c62f4bd-c432e43 (MC: 1.20.1)
-[11:33:23] [Server thread/ERROR]: [dynmap] Cannot find [Lnet.minecraft.server.BiomeBase;
-[11:33:23] [Server thread/ERROR]: [dynmap] Cannot find net.minecraft.server.BiomeStorage
-[11:33:23] [Server thread/ERROR]: [dynmap] Unable to find method getHandle for org.bukkit.craftbukkit.v1_20_R1.CraftChunk
-[11:33:23] [Server thread/ERROR]: Error initializing dynmap - bukkit version incompatible! initializing dynmap v3.4-beta-3-774 (Is it up to date?)
-java.lang.IllegalArgumentException: Error initializing dynmap - bukkit version incompatible!
-	at org.dynmap.bukkit.helper.BukkitVersionHelperGeneric.<init>(BukkitVersionHelperGeneric.java:165) ~[?:?]
-	at org.dynmap.bukkit.helper.BukkitVersionHelperCB.<init>(BukkitVersionHelperCB.java:44) ~[?:?]
-	at org.dynmap.bukkit.Helper.getHelper(Helper.java:79) ~[?:?]
-	at org.dynmap.bukkit.DynmapPlugin.onLoad(DynmapPlugin.java:871) ~[?:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:434) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
-[11:33:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:33:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:33:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:33:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:33:23] [Server thread/INFO]: Preparing level "world"
-[11:33:23] [Server thread/INFO]: -------- World Settings For [world] --------
-[11:33:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:33:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:33:23] [Server thread/INFO]: Mob Spawn Range: 6
-[11:33:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:33:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[11:33:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:33:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:33:23] [Server thread/INFO]: Max TNT Explosions: 100
-[11:33:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:33:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:33:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:33:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:33:23] [Server thread/INFO]: Simulation Distance: 10
-[11:33:23] [Server thread/INFO]: View Distance: 10
-[11:33:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:33:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:33:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[11:33:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:33:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:33:23] [Server thread/INFO]: Mob Spawn Range: 6
-[11:33:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:33:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[11:33:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:33:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:33:23] [Server thread/INFO]: Max TNT Explosions: 100
-[11:33:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:33:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:33:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:33:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:33:23] [Server thread/INFO]: Simulation Distance: 10
-[11:33:23] [Server thread/INFO]: View Distance: 10
-[11:33:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:33:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:33:23] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[11:33:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:33:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:33:23] [Server thread/INFO]: Mob Spawn Range: 6
-[11:33:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[11:33:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:33:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[11:33:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:33:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:33:23] [Server thread/INFO]: Max TNT Explosions: 100
-[11:33:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:33:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:33:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:33:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:33:23] [Server thread/INFO]: Simulation Distance: 10
-[11:33:23] [Server thread/INFO]: View Distance: 10
-[11:33:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:33:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:33:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:33:25] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:33:25] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:33:25] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:33:25] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[11:33:26] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[11:33:26] [Worker-Main-7/INFO]: Preparing spawn area: 53%
-[11:33:26] [Server thread/INFO]: Time elapsed: 2795 ms
-[11:33:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:33:27] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[11:33:27] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:33:27] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[11:33:28] [Server thread/INFO]: Time elapsed: 1460 ms
-[11:33:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:33:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:33:29] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:33:29] [Worker-Main-13/INFO]: Preparing spawn area: 7%
-[11:33:29] [Server thread/INFO]: Time elapsed: 1197 ms
-[11:33:29] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
-[11:33:29] [Server thread/ERROR]: §e[§2SkinsRestorer§e] §rYour Minecraft version is not supported by this version of SkinsRestorer! Is there a newer version available? If not, join our discord server!
-[11:33:29] [Server thread/ERROR]: §e[§2SkinsRestorer§e] §r§c§nCould not initialize SkinApplier! Please report this on our discord server! 
-net.skinsrestorer.shared.exception.InitializeException: No mapping for this minecraft version found! (bcf3dcb22ad42792794079f9443df2c0)
-	at net.skinsrestorer.bukkit.skinrefresher.MappingSpigotSkinRefresher.<init>(MappingSpigotSkinRefresher.java:45) ~[?:?]
-	at net.skinsrestorer.bukkit.SkinApplierBukkit.selectSpigotRefresher(SkinApplierBukkit.java:89) ~[?:?]
-	at net.skinsrestorer.bukkit.SkinApplierBukkit.detectRefresh(SkinApplierBukkit.java:84) ~[?:?]
-	at net.skinsrestorer.bukkit.SkinApplierBukkit.<init>(SkinApplierBukkit.java:61) ~[?:?]
-	at net.skinsrestorer.bukkit.SkinsRestorer.onEnable(SkinsRestorer.java:120) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:540) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:454) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:589) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
-[11:33:29] [Server thread/ERROR]: Error occurred while enabling SkinsRestorer v14.1.10 (Is it up to date?)
-java.lang.NullPointerException: Cannot invoke "net.skinsrestorer.bukkit.SkinApplierBukkit.getRefresh()" because "this.skinApplierBukkit" is null
-	at net.skinsrestorer.bukkit.SkinsRestorer.onEnable(SkinsRestorer.java:125) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:540) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:454) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:589) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
-[11:33:29] [Server thread/INFO]: [dynmap] Enabling dynmap v3.4-beta-3-774
-[11:33:29] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
-[11:33:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:33:29] [Server thread/INFO]: Done (6.340s)! For help, type "help"
-[11:33:29] [Server thread/INFO]: Starting GS4 status listener
-[11:33:29] [Server thread/INFO]: Thread Query Listener started
-[11:33:29] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[11:33:34] [User Authenticator #1/INFO]: UUID of player Eterna1_One is d7c0662c-bebc-37fd-91c9-1b4fc8213d4b
-[11:33:34] [Server thread/INFO]: Eterna1_One joined the game
-[11:33:34] [Server thread/INFO]: Eterna1_One[/202.187.122.113:55602] logged in with entity id 1656 at ([world]234.40388884821994, 193.5, -645.6999999880791)
-[11:33:40] [Server thread/INFO]: Eterna1_One lost connection: Disconnected
-[11:33:40] [Server thread/INFO]: Eterna1_One left the game
-[11:33:44] [Server thread/INFO]: Stopping the server
-[11:33:44] [Server thread/INFO]: Stopping server
-[11:33:44] [Server thread/INFO]: [dynmap] Disabling dynmap v3.4-beta-3-774
-[11:33:44] [Server thread/ERROR]: Error occurred while disabling dynmap v3.4-beta-3-774 (Is it up to date?)
-java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore()" because "this.core" is null
-	at org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:1064) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:268) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:367) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:493) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.disablePlugins(CraftServer.java:474) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.t(MinecraftServer.java:865) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.dedicated.DedicatedServer.t(DedicatedServer.java:688) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1048) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3813-Spigot-c62f4bd-c432e43]
-	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
-[11:33:44] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.1.10
-[11:33:44] [Server thread/INFO]: Saving players
-[11:33:44] [Server thread/INFO]: Saving worlds
-[11:33:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:33:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:33:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:33:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:33:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:33:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:33:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:33:45] [Server thread/INFO]: Thread Query Listener stopped
+[11:37:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:37:35] [ServerMain/INFO]: Loaded 7 recipes
+[11:37:36] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[11:37:36] [Server thread/INFO]: Loading properties
+[11:37:36] [Server thread/INFO]: This server is running CraftBukkit version 3813-Spigot-c62f4bd-c432e43 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[11:37:36] [Server thread/INFO]: Debug logging is disabled
+[11:37:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:37:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:37:36] [Server thread/INFO]: Default game type: SURVIVAL
+[11:37:36] [Server thread/INFO]: Generating keypair
+[11:37:36] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[11:37:36] [Server thread/INFO]: Using default channel type
+[11:37:36] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.12
+[11:37:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:37:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:37:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:37:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:37:36] [Server thread/INFO]: Preparing level "world"
+[11:37:36] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:37:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:37:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:37:36] [Server thread/INFO]: Simulation Distance: 10
+[11:37:36] [Server thread/INFO]: View Distance: 10
+[11:37:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:37:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:37:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:37:36] [Server thread/INFO]: Mob Spawn Range: 6
+[11:37:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[11:37:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[11:37:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:37:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[11:37:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[11:37:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:37:36] [Server thread/INFO]: Max TNT Explosions: 100
+[11:37:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:37:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:37:37] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:37:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:37:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:37:37] [Server thread/INFO]: Simulation Distance: 10
+[11:37:37] [Server thread/INFO]: View Distance: 10
+[11:37:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:37:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:37:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:37:37] [Server thread/INFO]: Mob Spawn Range: 6
+[11:37:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[11:37:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:37:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[11:37:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[11:37:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:37:37] [Server thread/INFO]: Max TNT Explosions: 100
+[11:37:37] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:37:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:37:37] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:37:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:37:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:37:37] [Server thread/INFO]: Simulation Distance: 10
+[11:37:37] [Server thread/INFO]: View Distance: 10
+[11:37:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:37:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:37:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:37:37] [Server thread/INFO]: Mob Spawn Range: 6
+[11:37:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[11:37:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[11:37:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:37:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[11:37:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[11:37:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:37:37] [Server thread/INFO]: Max TNT Explosions: 100
+[11:37:37] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:37:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:37:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:37:39] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[11:37:39] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[11:37:39] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[11:37:39] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[11:37:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:37:40] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[11:37:40] [Server thread/INFO]: Time elapsed: 3002 ms
+[11:37:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:37:41] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[11:37:41] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[11:37:41] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:37:42] [Worker-Main-10/INFO]: Preparing spawn area: 31%
+[11:37:42] [Server thread/INFO]: Time elapsed: 1685 ms
+[11:37:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:37:43] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[11:37:43] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[11:37:43] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[11:37:43] [Server thread/INFO]: Time elapsed: 1280 ms
+[11:37:43] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[11:37:43] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_20_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
+[11:37:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:37:44] [Server thread/INFO]: Done (7.066s)! For help, type "help"
+[11:37:44] [Server thread/INFO]: Starting GS4 status listener
+[11:37:44] [Server thread/INFO]: Thread Query Listener started
+[11:37:44] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[11:37:44] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[11:37:44] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[11:37:44] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[11:37:44] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[11:37:44] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[11:37:44] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[11:37:44] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[11:37:44] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m[m
+[11:37:44] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[11:37:44] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[11:39:06] [User Authenticator #1/INFO]: UUID of player Eterna1_One is d7c0662c-bebc-37fd-91c9-1b4fc8213d4b
+[11:39:06] [Server thread/INFO]: Eterna1_One joined the game
+[11:39:06] [Server thread/INFO]: Eterna1_One[/202.187.122.113:55966] logged in with entity id 1658 at ([world]239.79108885292365, 193.0, -643.7393217080529)
+[11:45:30] [Server thread/INFO]: Eterna1_One has made the advancement [Eye Spy]
+[11:45:36] [Server thread/INFO]: Eterna1_One has made the advancement [The End?]
+[11:45:36] [Server thread/ERROR]: Chunk file at [23, 16] is in the wrong location; relocating. (Expected [23, 16], got [13, 10])
+[11:45:36] [Server thread/ERROR]: Chunk file at [27, 12] is in the wrong location; relocating. (Expected [27, 12], got [13, 7])
+[11:46:02] [User Authenticator #2/INFO]: UUID of player GrappleHou is 667f30de-38ea-3b1d-b5aa-8e47e70eeb08
+[11:46:02] [Server thread/INFO]: GrappleHou joined the game
+[11:46:02] [Server thread/INFO]: GrappleHou[/118.100.91.228:64091] logged in with entity id 5929 at ([world]-119.35511550691368, 101.0, -606.0908732040876)
+[11:46:05] [Async Chat Thread - #1/INFO]: [Not Secure] <Eterna1_One> hou
+[11:46:14] [Async Chat Thread - #0/INFO]: [Not Secure] <GrappleHou> hi liwei
+[11:46:25] [Async Chat Thread - #1/INFO]: [Not Secure] <Eterna1_One> i opened all machine
+[11:46:37] [Async Chat Thread - #0/INFO]: [Not Secure] <GrappleHou> no wonder lag
+[11:46:43] [Async Chat Thread - #1/INFO]: [Not Secure] <Eterna1_One> haha
+[11:46:47] [Async Chat Thread - #0/INFO]: [Not Secure] <Eterna1_One> i close now
+[11:48:49] [Server thread/INFO]: Named entity EntityCat['█████████  '/411, l='ServerLevel[world]', x=-19.88, y=64.00, z=-315.05] died: █████████   was slain by Eterna1_One using [天鎖斬月]
+[11:49:47] [Async Chat Thread - #3/INFO]: [Not Secure] <Eterna1_One> wea
+[11:49:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Eterna1_One> keqing
+[11:49:58] [Async Chat Thread - #3/INFO]: [Not Secure] <GrappleHou> u know de
+[11:50:07] [Async Chat Thread - #2/INFO]: [Not Secure] <Eterna1_One> haha
+[11:54:03] [Server thread/INFO]: GrappleHou has made the advancement [What a Deal!]
+[11:57:40] [Async Chat Thread - #5/INFO]: [Not Secure] <GrappleHou> gg
+[11:57:51] [Async Chat Thread - #4/INFO]: [Not Secure] <GrappleHou> sakura door
+[11:57:52] [Async Chat Thread - #5/INFO]: [Not Secure] <Eterna1_One> see thru door
+[11:57:58] [Async Chat Thread - #4/INFO]: [Not Secure] <GrappleHou> sus door
+[11:58:38] [User Authenticator #3/INFO]: UUID of player GrappleHou is 667f30de-38ea-3b1d-b5aa-8e47e70eeb08
+[11:58:38] [Server thread/INFO]: GrappleHou lost connection: You logged in from another location
+[11:58:38] [Server thread/INFO]: GrappleHou left the game.
+[11:58:38] [Server thread/INFO]: GrappleHou joined the game
+[11:58:38] [Server thread/INFO]: GrappleHou[/118.100.91.228:25397] logged in with entity id 17552 at ([world]2.9859864129582525, 65.0, -311.03603649755127)
+[11:58:55] [Async Chat Thread - #5/INFO]: [Not Secure] <GrappleHou> no programming today
+[12:00:37] [Async Chat Thread - #7/INFO]: [Not Secure] <GrappleHou> where shulker build
+[12:00:49] [Async Chat Thread - #6/INFO]: [Not Secure] <Eterna1_One> end?
+[12:00:52] [Async Chat Thread - #7/INFO]: [Not Secure] <GrappleHou> ok
+[12:02:37] [Async Chat Thread - #9/INFO]: [Not Secure] <GrappleHou> toilet meh
+[12:02:41] [Async Chat Thread - #8/INFO]: [Not Secure] <Eterna1_One> haha
+[12:02:49] [Async Chat Thread - #9/INFO]: [Not Secure] <GrappleHou> boys should be blue
+[12:03:23] [Async Chat Thread - #8/INFO]: [Not Secure] <GrappleHou> no blue wood
+[12:03:31] [Async Chat Thread - #9/INFO]: [Not Secure] <GrappleHou> ok nvm then
+[12:03:37] [Async Chat Thread - #8/INFO]: [Not Secure] <GrappleHou> go end
+[12:04:49] [Server thread/INFO]: GrappleHou has made the advancement [Eye Spy]
+[12:04:54] [Server thread/INFO]: GrappleHou has made the advancement [The End?]
+[12:05:32] [Server thread/INFO]: GrappleHou has made the advancement [Remote Getaway]
+[12:05:47] [Async Chat Thread - #11/INFO]: [Not Secure] <GrappleHou> where end city
+[12:05:53] [Async Chat Thread - #10/INFO]: [Not Secure] <Eterna1_One> gg
+[12:06:03] [Server thread/ERROR]: Chunk file at [6, -50] is in the wrong location; relocating. (Expected [6, -50], got [3, -49])
+[12:06:03] [Server thread/ERROR]: Chunk file at [2, -49] is in the wrong location; relocating. (Expected [2, -49], got [23, -51])
+[12:06:03] [Server thread/ERROR]: Chunk file at [6, -49] is in the wrong location; relocating. (Expected [6, -49], got [13, -49])
+[12:06:03] [Server thread/ERROR]: Chunk file at [3, -49] is in the wrong location; relocating. (Expected [3, -49], got [23, -61])
+[12:06:03] [Server thread/ERROR]: Chunk file at [10, -49] is in the wrong location; relocating. (Expected [10, -49], got [23, -57])
+[12:06:13] [Server thread/ERROR]: Chunk file at [11, -49] is in the wrong location; relocating. (Expected [11, -49], got [10, -49])
+[12:06:13] [Server thread/ERROR]: Chunk file at [13, -49] is in the wrong location; relocating. (Expected [13, -49], got [23, -63])
+[12:06:30] [Server thread/ERROR]: Chunk file at [21, -50] is in the wrong location; relocating. (Expected [21, -50], got [21, -49])
+[12:06:30] [Server thread/ERROR]: Chunk file at [21, -49] is in the wrong location; relocating. (Expected [21, -49], got [2, -49])
+[12:07:13] [Server thread/ERROR]: Chunk file at [23, -63] is in the wrong location; relocating. (Expected [23, -63], got [23, -59])
+[12:07:13] [Server thread/ERROR]: Chunk file at [23, -61] is in the wrong location; relocating. (Expected [23, -61], got [23, -49])
+[12:07:13] [Server thread/ERROR]: Chunk file at [23, -59] is in the wrong location; relocating. (Expected [23, -59], got [6, -49])
+[12:07:14] [Server thread/ERROR]: Chunk file at [23, -57] is in the wrong location; relocating. (Expected [23, -57], got [23, -55])
+[12:07:14] [Server thread/ERROR]: Chunk file at [23, -55] is in the wrong location; relocating. (Expected [23, -55], got [11, -49])
+[12:07:14] [Server thread/ERROR]: Chunk file at [23, -51] is in the wrong location; relocating. (Expected [23, -51], got [21, -50])
+[12:07:14] [Server thread/ERROR]: Chunk file at [23, -49] is in the wrong location; relocating. (Expected [23, -49], got [6, -50])
+[12:08:00] [Async Chat Thread - #13/INFO]: [Not Secure] <GrappleHou> wow
+[12:14:39] [Server thread/INFO]: Eterna1_One has made the advancement [What a Deal!]
+[12:14:43] [Server thread/ERROR]: Chunk file at [115, -52] is in the wrong location; relocating. (Expected [115, -52], got [108, -42])
+[12:16:38] [Async Chat Thread - #15/INFO]: [Not Secure] <GrappleHou> not found end city leh
+[12:16:50] [Async Chat Thread - #14/INFO]: [Not Secure] <Eterna1_One> na li ke neng
+[12:16:59] [Async Chat Thread - #15/INFO]: [Not Secure] <Eterna1_One> but no need end city also can ma?
+[12:17:16] [Async Chat Thread - #14/INFO]: [Not Secure] <GrappleHou> need shulker mob
+[12:17:25] [Async Chat Thread - #15/INFO]: [Not Secure] <Eterna1_One> hmm
+[12:17:29] [Async Chat Thread - #14/INFO]: [Not Secure] <GrappleHou> u oso come find la
+[12:17:42] [Async Chat Thread - #15/INFO]: [Not Secure] <GrappleHou> maybe your luck more good
+[12:17:53] [Async Chat Thread - #14/INFO]: [Not Secure] <Eterna1_One> okok
+[12:18:05] [Async Chat Thread - #15/INFO]: [Not Secure] <GrappleHou> if fast oso can google seed la
+[12:19:27] [Async Chat Thread - #17/INFO]: [Not Secure] <GrappleHou> found
+[12:19:31] [Async Chat Thread - #16/INFO]: [Not Secure] <Eterna1_One> ok
+[12:20:38] [Server thread/INFO]: Eterna1_One has made the advancement [Ice Bucket Challenge]
+[12:20:51] [Async Chat Thread - #19/INFO]: [Not Secure] <GrappleHou> 1365 -2816
+[12:21:06] [Async Chat Thread - #18/INFO]: [Not Secure] <GrappleHou> how bring shulker back
+[12:21:18] [Server thread/INFO]: GrappleHou has made the advancement [The City at the End of the Game]
+[12:21:20] [Async Chat Thread - #19/INFO]: [Not Secure] <Eterna1_One> ...
+[12:22:48] [Async Chat Thread - #20/INFO]: [Not Secure] <GrappleHou> how ahh
+[12:24:37] [Async Chat Thread - #23/INFO]: [Not Secure] <Eterna1_One> the video build farm first
+[12:24:44] [Async Chat Thread - #22/INFO]: [Not Secure] <Eterna1_One> then pull shulker from end city
+[12:24:49] [Async Chat Thread - #23/INFO]: [Not Secure] <Eterna1_One> he built at end la
+[12:25:01] [Async Chat Thread - #22/INFO]: [Not Secure] <GrappleHou> lol
+[12:25:11] [Async Chat Thread - #23/INFO]: [Not Secure] <GrappleHou> so i come back first la
+[12:25:26] [Async Chat Thread - #22/INFO]: [Not Secure] <GrappleHou> 1365 -2816
+[12:32:04] [Server thread/ERROR]: Chunk file at [115, -52] is in the wrong location; relocating. (Expected [115, -52], got [108, -42])
+[12:32:04] [Server thread/ERROR]: Chunk file at [115, -49] is in the wrong location; relocating. (Expected [115, -49], got [106, -33])
+[12:32:19] [Server thread/ERROR]: Chunk file at [107, -42] is in the wrong location; relocating. (Expected [107, -42], got [127, -46])
+[12:32:19] [Server thread/ERROR]: Chunk file at [108, -42] is in the wrong location; relocating. (Expected [108, -42], got [115, -52])
+[12:32:19] [Server thread/ERROR]: Chunk file at [106, -33] is in the wrong location; relocating. (Expected [106, -33], got [115, -49])
+[12:33:36] [Async Chat Thread - #25/INFO]: [Not Secure] <GrappleHou> 2nd closer end city
+[12:34:06] [Async Chat Thread - #24/INFO]: [Not Secure] <GrappleHou> 722 -888
+[12:34:13] [Async Chat Thread - #25/INFO]: [Not Secure] <GrappleHou> bigger and taller
+[12:34:27] [Async Chat Thread - #24/INFO]: [Not Secure] <Eterna1_One> farm?
+[12:34:41] [Async Chat Thread - #25/INFO]: [Not Secure] <GrappleHou> farm?
+[12:34:54] [Async Chat Thread - #24/INFO]: [Not Secure] <GrappleHou> ohh i get what u mean
+[12:34:57] [Async Chat Thread - #25/INFO]: [Not Secure] <GrappleHou> u mean loot?
+[12:35:06] [Async Chat Thread - #24/INFO]: [Not Secure] <GrappleHou> hehe i go inside explore first
+[12:35:18] [Async Chat Thread - #25/INFO]: [Not Secure] <Eterna1_One> lol ok
+[12:43:04] [Async Chat Thread - #27/INFO]: [Not Secure] <GrappleHou> no good loot
+[12:43:17] [Server thread/INFO]: Eterna1_One has made the advancement [Hot Stuff]
+[12:43:20] [Async Chat Thread - #26/INFO]: [Not Secure] <Eterna1_One> okla
+[12:45:35] [Server thread/INFO]: Eterna1_One has made the advancement [Tactical Fishing]
+[12:48:30] [Async Chat Thread - #29/INFO]: [Not Secure] <GrappleHou> liwei
+[12:48:33] [Async Chat Thread - #28/INFO]: [Not Secure] <GrappleHou> where r u
+[12:48:36] [Async Chat Thread - #29/INFO]: [Not Secure] <Eterna1_One> base a
+[12:48:42] [Async Chat Thread - #28/INFO]: [Not Secure] <GrappleHou> see le
+[12:48:43] [Async Chat Thread - #29/INFO]: [Not Secure] <Eterna1_One> fixing farm
+[12:48:51] [Async Chat Thread - #28/INFO]: [Not Secure] <GrappleHou> err
+[12:48:52] [Async Chat Thread - #29/INFO]: [Not Secure] <Eterna1_One> le?
+[12:48:53] [Async Chat Thread - #28/INFO]: [Not Secure] <GrappleHou> no need la
+[12:49:02] [Async Chat Thread - #29/INFO]: [Not Secure] <Eterna1_One> fixed le
+[12:49:02] [Async Chat Thread - #28/INFO]: [Not Secure] <GrappleHou> i got build a pig farm
+[12:49:07] [Async Chat Thread - #29/INFO]: [Not Secure] <GrappleHou> more good
+[12:49:08] [Async Chat Thread - #28/INFO]: [Not Secure] <Eterna1_One> lol
+[12:49:10] [Async Chat Thread - #29/INFO]: [Not Secure] <Eterna1_One> okla
+[12:49:14] [Async Chat Thread - #28/INFO]: [Not Secure] <Eterna1_One> chicken halal
+[12:49:23] [Async Chat Thread - #29/INFO]: [Not Secure] <GrappleHou> pork good
+[12:49:25] [Async Chat Thread - #28/INFO]: [Not Secure] <Eterna1_One> keqing in malaysia want halal
+[12:49:36] [Async Chat Thread - #29/INFO]: [Not Secure] <GrappleHou> keqing is cat, dun care
+[12:50:05] [Async Chat Thread - #28/INFO]: [Not Secure] <Eterna1_One> so now gather item?
+[12:50:09] [Async Chat Thread - #29/INFO]: [Not Secure] <GrappleHou> ok de
+[12:51:15] [Async Chat Thread - #31/INFO]: [Not Secure] <Eterna1_One> lol no bamboo
+[12:51:40] [Async Chat Thread - #30/INFO]: [Not Secure] <GrappleHou> err go chop
+[12:51:58] [Async Chat Thread - #31/INFO]: [Not Secure] <GrappleHou> wow now hunder
+[12:52:02] [Async Chat Thread - #30/INFO]: [Not Secure] <GrappleHou> thunder
+[12:52:04] [Async Chat Thread - #31/INFO]: [Not Secure] <Eterna1_One> yalo
+[12:52:28] [Async Chat Thread - #30/INFO]: [Not Secure] <GrappleHou> err forget it
+[12:52:36] [Async Chat Thread - #31/INFO]: [Not Secure] <GrappleHou> i lost my boom boom trident
+[12:53:00] [Async Chat Thread - #30/INFO]: [Not Secure] <GrappleHou> ei wait
+[12:53:01] [Async Chat Thread - #31/INFO]: [Not Secure] <GrappleHou> ohh sunny now
+[12:53:13] [Async Chat Thread - #30/INFO]: [Not Secure] <GrappleHou> how can i help
+[12:53:24] [Async Chat Thread - #31/INFO]: [Not Secure] <Eterna1_One> bring shuler box?
+[12:53:28] [Async Chat Thread - #30/INFO]: [Not Secure] <GrappleHou> ok
+[12:53:30] [Async Chat Thread - #31/INFO]: [Not Secure] <GrappleHou> how many
+[12:53:34] [Async Chat Thread - #30/INFO]: [Not Secure] <Eterna1_One> got kosong box ma
+[12:53:49] [Async Chat Thread - #31/INFO]: [Not Secure] <GrappleHou> got ba
+[12:54:19] [Async Chat Thread - #30/INFO]: [Not Secure] <Eterna1_One> ...
+[12:54:23] [Async Chat Thread - #31/INFO]: [Not Secure] <Eterna1_One> 2700 scaffold
+[12:54:29] [Async Chat Thread - #30/INFO]: [Not Secure] <GrappleHou> good
+[12:54:35] [Async Chat Thread - #31/INFO]: [Not Secure] <GrappleHou> i go chop bamboo
+[12:54:45] [Async Chat Thread - #30/INFO]: [Not Secure] <Eterna1_One> ok
+[12:54:50] [Async Chat Thread - #31/INFO]: [Not Secure] <Eterna1_One> i go slab
+[12:54:54] [Async Chat Thread - #30/INFO]: [Not Secure] <Eterna1_One> u got see the material list o?
+[12:54:59] [Async Chat Thread - #31/INFO]: [Not Secure] <GrappleHou> not yet
+[12:55:02] [Async Chat Thread - #30/INFO]: [Not Secure] <GrappleHou> haha
+[12:55:03] [Async Chat Thread - #31/INFO]: [Not Secure] <Eterna1_One> i screenshot ba
+[12:55:35] [Async Chat Thread - #30/INFO]: [Not Secure] <GrappleHou> ok
+[12:55:47] [Async Chat Thread - #31/INFO]: [Not Secure] <Eterna1_One> i go get redstone dust
+[12:58:39] [Async Chat Thread - #33/INFO]: [Not Secure] <Eterna1_One> wa
+[12:58:46] [Async Chat Thread - #32/INFO]: [Not Secure] <GrappleHou> ?
+[12:58:46] [Async Chat Thread - #33/INFO]: [Not Secure] <Eterna1_One> scaffold need 1.++ box
+[12:59:00] [Async Chat Thread - #32/INFO]: [Not Secure] <GrappleHou> ok, make it 2 box
+[12:59:54] [Async Chat Thread - #33/INFO]: [Not Secure] <GrappleHou> your underground yami lab got 4 stacks
+[12:59:59] [Async Chat Thread - #32/INFO]: [Not Secure] <Eterna1_One> lol
+[13:00:51] [Async Chat Thread - #33/INFO]: [Not Secure] <GrappleHou> so many rubbish box arounf base
+[13:01:15] [Async Chat Thread - #32/INFO]: [Not Secure] <GrappleHou> some valueable item oso got
+[13:04:26] [Async Chat Thread - #34/INFO]: [Not Secure] <GrappleHou> walao
+[13:04:31] [Async Chat Thread - #35/INFO]: [Not Secure] <Eterna1_One> ?
+[13:04:34] [Async Chat Thread - #34/INFO]: [Not Secure] <GrappleHou> i strolling around base
+[13:04:46] [Async Chat Thread - #35/INFO]: [Not Secure] <GrappleHou> got gather many bamboo and scaffolf
+[13:04:54] [Async Chat Thread - #34/INFO]: [Not Secure] <Eterna1_One> good a
+[13:04:58] [Async Chat Thread - #35/INFO]: [Not Secure] <GrappleHou> to many rubbish
+[13:05:19] [Async Chat Thread - #34/INFO]: [Not Secure] <Eterna1_One> haha
+[13:05:40] [Async Chat Thread - #35/INFO]: [Not Secure] <GrappleHou> now gather 4 stacks scaffold
+[13:05:55] [Async Chat Thread - #34/INFO]: [Not Secure] <Eterna1_One> need item sorter
+[13:06:04] [Async Chat Thread - #35/INFO]: [Not Secure] <GrappleHou> later la
+[13:06:15] [Async Chat Thread - #34/INFO]: [Not Secure] <GrappleHou> that 1 extermely hard
+[13:06:19] [Async Chat Thread - #35/INFO]: [Not Secure] <GrappleHou> 1 year project
+[13:08:05] [Server thread/INFO]: Villager EntityVillager['Villager'/1200, l='ServerLevel[world]', x=124.44, y=68.00, z=-361.31] died, message: 'Villager was slain by Zombie'
+[13:11:13] [Server thread/INFO]: GrappleHou lost connection: Timed out
+[13:11:13] [Server thread/INFO]: GrappleHou left the game.
+[13:11:13] [Server thread/WARN]: handleDisconnection() called twice
+[13:11:16] [User Authenticator #4/INFO]: UUID of player GrappleHou is 667f30de-38ea-3b1d-b5aa-8e47e70eeb08
+[13:11:16] [Server thread/INFO]: GrappleHou joined the game
+[13:11:16] [Server thread/INFO]: GrappleHou[/118.100.91.228:11404] logged in with entity id 55236 at ([world]-56.88924270798163, 64.0, -319.65284691538193)
+[13:12:57] [Async Chat Thread - #36/INFO]: [Not Secure] <Eterna1_One> i put in ascending order
+[13:13:02] [Async Chat Thread - #37/INFO]: [Not Secure] <GrappleHou> ok
+[13:22:49] [Async Chat Thread - #39/INFO]: [Not Secure] <Eterna1_One> wither rose how get le
+[13:22:55] [Async Chat Thread - #38/INFO]: [Not Secure] <GrappleHou> i got
+[13:22:57] [Async Chat Thread - #39/INFO]: [Not Secure] <Eterna1_One> ok
+[13:22:58] [Async Chat Thread - #38/INFO]: [Not Secure] <GrappleHou> how many need
+[13:23:01] [Async Chat Thread - #39/INFO]: [Not Secure] <Eterna1_One> 16
+[13:23:05] [Async Chat Thread - #38/INFO]: [Not Secure] <GrappleHou> ez
+[13:23:45] [Async Chat Thread - #39/INFO]: [Not Secure] <GrappleHou> where put
+[13:23:53] [Async Chat Thread - #38/INFO]: [Not Secure] <Eterna1_One> u cin cai put first
+[13:24:12] [Server thread/INFO]: GrappleHou lost connection: Timed out
+[13:24:12] [Server thread/INFO]: GrappleHou left the game.
+[13:24:12] [Server thread/WARN]: handleDisconnection() called twice
+[13:24:12] [Async Chat Thread - #39/INFO]: [Not Secure] <Eterna1_One> gg
+[13:24:15] [User Authenticator #5/INFO]: UUID of player GrappleHou is 667f30de-38ea-3b1d-b5aa-8e47e70eeb08
+[13:24:15] [Server thread/INFO]: GrappleHou joined the game
+[13:24:15] [Server thread/INFO]: GrappleHou[/118.100.91.228:33032] logged in with entity id 60081 at ([world]12.211719585874217, 67.0, -312.2753678415352)
+[13:24:24] [Async Chat Thread - #38/INFO]: [Not Secure] <Eterna1_One> gg
+[13:24:30] [Async Chat Thread - #39/INFO]: [Not Secure] <Eterna1_One> snow block how
+[13:24:39] [Async Chat Thread - #38/INFO]: [Not Secure] <GrappleHou> need snow
+[13:24:46] [Async Chat Thread - #39/INFO]: [Not Secure] <GrappleHou> how many
+[13:24:51] [Async Chat Thread - #38/INFO]: [Not Secure] <Eterna1_One> 10
+[13:24:55] [Async Chat Thread - #39/INFO]: [Not Secure] <GrappleHou> ok
+[13:25:02] [Async Chat Thread - #38/INFO]: [Not Secure] <GrappleHou> got le
+[13:27:00] [Async Chat Thread - #41/INFO]: [Not Secure] <Eterna1_One> 2 target block
+[13:27:07] [Async Chat Thread - #40/INFO]: [Not Secure] <GrappleHou> make bah haha
+[13:27:16] [Async Chat Thread - #41/INFO]: [Not Secure] <Eterna1_One> i forgot le lol
+[13:27:23] [Async Chat Thread - #40/INFO]: [Not Secure] <GrappleHou> see recipe
+[13:27:35] [Async Chat Thread - #41/INFO]: [Not Secure] <GrappleHou> from crafting
+[13:28:07] [Async Chat Thread - #40/INFO]: [Not Secure] <Eterna1_One> not showing la
+[13:28:09] [Async Chat Thread - #41/INFO]: [Not Secure] <Eterna1_One> i googl
+[13:28:13] [Async Chat Thread - #40/INFO]: [Not Secure] <GrappleHou> haha
+[13:32:34] [Async Chat Thread - #43/INFO]: [Not Secure] <Eterna1_One> ok le
+[13:32:39] [Async Chat Thread - #42/INFO]: [Not Secure] <Eterna1_One> left scaffold
+[13:32:46] [Async Chat Thread - #43/INFO]: [Not Secure] <GrappleHou> come forest ba
+[13:32:50] [Async Chat Thread - #42/INFO]: [Not Secure] <GrappleHou> help me chop bamboo
+[13:32:54] [Async Chat Thread - #43/INFO]: [Not Secure] <Eterna1_One> k
+[13:33:15] [Async Chat Thread - #42/INFO]: [Not Secure] <Eterna1_One> weijie front also got his house
+[13:33:23] [Async Chat Thread - #43/INFO]: [Not Secure] <GrappleHou> base de i no chop
+[13:34:51] [Async Chat Thread - #45/INFO]: [Not Secure] <GrappleHou> i got 1 shulker le ah ha
+[13:35:18] [Async Chat Thread - #44/INFO]: [Not Secure] <Eterna1_One> ok i think enuf le
+[13:35:24] [Async Chat Thread - #45/INFO]: [Not Secure] <GrappleHou> ya meh
+[13:35:33] [Async Chat Thread - #44/INFO]: [Not Secure] <GrappleHou> 1 box more leh
+[13:35:37] [Async Chat Thread - #45/INFO]: [Not Secure] <Eterna1_One> ur 1 shulker include the base one?
+[13:35:41] [Async Chat Thread - #44/INFO]: [Not Secure] <GrappleHou> no
+[13:35:43] [Async Chat Thread - #45/INFO]: [Not Secure] <Eterna1_One> base now got 1 shulker
+[13:35:51] [Async Chat Thread - #44/INFO]: [Not Secure] <GrappleHou> oh ok
+[13:35:53] [Async Chat Thread - #45/INFO]: [Not Secure] <Eterna1_One> then ok le
+[13:36:11] [Async Chat Thread - #44/INFO]: [Not Secure] <GrappleHou> i come back ahh
+[13:36:13] [Async Chat Thread - #45/INFO]: [Not Secure] <Eterna1_One> k
+[13:39:11] [User Authenticator #6/INFO]: UUID of player GrappleHou is 667f30de-38ea-3b1d-b5aa-8e47e70eeb08
+[13:39:11] [Server thread/INFO]: GrappleHou lost connection: You logged in from another location
+[13:39:11] [Server thread/INFO]: GrappleHou left the game.
+[13:39:11] [Server thread/INFO]: GrappleHou joined the game
+[13:39:11] [Server thread/INFO]: GrappleHou[/118.100.91.228:10848] logged in with entity id 71120 at ([world]25.381681077177298, 66.0, -310.11543969384377)
+[13:43:12] [Async Chat Thread - #47/INFO]: [Not Secure] <GrappleHou> enough le
+[13:43:21] [Async Chat Thread - #46/INFO]: [Not Secure] <GrappleHou> where end to build
+[13:43:27] [Async Chat Thread - #47/INFO]: [Not Secure] <Eterna1_One> dunno
+[13:43:40] [Async Chat Thread - #46/INFO]: [Not Secure] <GrappleHou> maybe build a platform bah
+[13:43:47] [Async Chat Thread - #47/INFO]: [Not Secure] <GrappleHou> it need 17x17?
+[13:43:52] [Async Chat Thread - #46/INFO]: [Not Secure] <Eterna1_One> 35x35...
+[13:43:58] [Async Chat Thread - #47/INFO]: [Not Secure] <GrappleHou> amazing
+[13:44:02] [Async Chat Thread - #46/INFO]: [Not Secure] <Eterna1_One> maybe near the end city?
+[13:44:05] [Async Chat Thread - #47/INFO]: [Not Secure] <GrappleHou> make it 40x40
+[13:44:09] [Async Chat Thread - #46/INFO]: [Not Secure] <Eterna1_One> ...
+[13:44:15] [Async Chat Thread - #47/INFO]: [Not Secure] <GrappleHou> outside middle island
+[13:44:24] [Async Chat Thread - #46/INFO]: [Not Secure] <GrappleHou> build a glass platform
+[13:44:48] [Async Chat Thread - #47/INFO]: [Not Secure] <Eterna1_One> need glass
+[13:44:49] [Async Chat Thread - #46/INFO]: [Not Secure] <GrappleHou> then ppl can hav heart attack when go up
+[13:45:37] [Async Chat Thread - #47/INFO]: [Not Secure] <GrappleHou> ok
+[13:45:47] [Async Chat Thread - #46/INFO]: [Not Secure] <GrappleHou> we need at least 25 stacks glass
+[13:46:01] [Async Chat Thread - #47/INFO]: [Not Secure] <Eterna1_One> ...
+[13:46:04] [Async Chat Thread - #46/INFO]: [Not Secure] <GrappleHou> then make it white color
+[13:46:13] [Async Chat Thread - #47/INFO]: [Not Secure] <GrappleHou> for ppl not heart attack
+[13:46:44] [Async Chat Thread - #46/INFO]: [Not Secure] <GrappleHou> our sand maker still working?
+[13:46:49] [Async Chat Thread - #47/INFO]: [Not Secure] <Eterna1_One> dunno..
+[13:47:02] [Async Chat Thread - #46/INFO]: [Not Secure] <GrappleHou> need a ppl at main world to observe
+[13:47:08] [Async Chat Thread - #47/INFO]: [Not Secure] <Eterna1_One> i observe lo
+[13:47:14] [Async Chat Thread - #46/INFO]: [Not Secure] <GrappleHou> ok i go open machine
+[13:51:06] [Async Chat Thread - #49/INFO]: [Not Secure] <GrappleHou> not working leh
+[13:51:13] [Async Chat Thread - #48/INFO]: [Not Secure] <Eterna1_One> nothing her
+[13:51:18] [Async Chat Thread - #49/INFO]: [Not Secure] <GrappleHou> got thing
+[13:51:29] [Async Chat Thread - #48/INFO]: [Not Secure] <GrappleHou> just timing got problem
+[13:51:45] [Async Chat Thread - #49/INFO]: [Not Secure] <Eterna1_One> gg ,
+[13:53:05] [Async Chat Thread - #51/INFO]: [Not Secure] <Eterna1_One> i go lunch le
+[13:53:08] [Async Chat Thread - #50/INFO]: [Not Secure] <GrappleHou> let me try fix
+[13:53:13] [Async Chat Thread - #51/INFO]: [Not Secure] <Eterna1_One> kk see ya
+[13:53:14] [Server thread/INFO]: Eterna1_One lost connection: Disconnected
+[13:53:14] [Server thread/INFO]: Eterna1_One left the game
+[14:20:49] [Server thread/INFO]: Villager EntityVillager['Farmer'/55380, l='ServerLevel[world]', x=21.55, y=59.05, z=-316.30] died, message: 'Farmer drowned'
+[14:35:22] [Server thread/INFO]: GrappleHou has made the advancement [Bee Our Guest]
+[14:41:37] [Server thread/WARN]: GrappleHou moved too quickly! 702.0342966940945,15.233632006042477,1429.8140291425866
+[14:59:55] [Server thread/WARN]: GrappleHou moved too quickly! 702.1469707790593,15.233632006042477,1429.7986800159324
+[15:34:35] [Server thread/WARN]: GrappleHou moved too quickly! -11.203594271941608,0.0,9.886382617163292
+[15:39:17] [Server thread/INFO]: GrappleHou lost connection: Disconnected
+[15:39:17] [Server thread/INFO]: GrappleHou left the game
+[15:55:30] [Server thread/INFO]: Stopping the server
+[15:55:30] [Server thread/INFO]: Stopping server
+[15:55:30] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+[15:55:30] [Server thread/INFO]: Saving players
+[15:55:31] [Server thread/INFO]: Saving worlds
+[15:55:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:55:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:55:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:55:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:55:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:55:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:55:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:55:32] [Server thread/INFO]: Thread Query Listener stopped
