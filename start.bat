@@ -1,2 +1,2 @@
-java -Xms1024M -Xmx2048M -jar spigot-1.20.1.jar nogui
+java -Xms8096M -Xmx8096M -jar spigot-1.18.2.jar nogui
 pause
